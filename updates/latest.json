@@ -1,8 +1,8 @@
 {
-  "version": "1.0.7",
+  "version": "1.0.8",
   "publishedAt": "2026-10-05",
-  "notes": "1.0.7｜來源命名與檔案回復\n• 整理結果依來源命名，例如 Download檔案整理資料夾，舊版整理資料夾自動遷移並保留紀錄關聯。\n• 新增「檔案回復」：選擇來源、確認後依紀錄搬回原處；同名及未記錄內容保留，完成且無剩餘內容才移除整理資料夾。\n• 回復後暫停該來源的自動整理，重啟仍保留；立即整理或整理所選資料夾可重新啟用。",
-  "downloadUrl": "https://raw.githubusercontent.com/jongfat/desktop-file-organizer/main/bin/DesktopOrganizer-Setup-1.0.7.exe",
-  "sha256": "7753bb02532e08cac79a3cc5ec98c727f5aa80cf207a3c7f293e3fa45c4d0deb",
-  "size": 2081370
+  "notes": "1.0.8｜修正桌面整理資料夾名稱\n• 桌面固定使用「桌面檔案整理」，其他來源維持來源名稱＋檔案整理資料夾。\n• 自動遷移 1.0.7 的桌面結果及更舊名稱，保留檔案、分類及連續升級的歷史關聯，檔案回復仍可追溯原位置。",
+  "downloadUrl": "https://raw.githubusercontent.com/jongfat/desktop-file-organizer/main/bin/DesktopOrganizer-Setup-1.0.8.exe",
+  "sha256": "95aaa49771daf3d7d015818402d7bc959b28233d23df4ef593033b962bbae29e",
+  "size": 2081960
 }
