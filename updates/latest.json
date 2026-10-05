@@ -1,0 +1,8 @@
+{
+  "version": "1.0.1",
+  "publishedAt": "2026-10-05",
+  "notes": "1.0.1｜資料夾右鍵整理與 OTA 更新\n• 新增資料夾右鍵「整理此資料夾」，也可從資料夾空白處呼叫。\n• 所選資料夾依相同規則分類，結果放入該資料夾內的「桌面資料整理」。\n• 保留捷徑、原子資料夾完整搬移、同名不覆蓋，顯示整理完成與失敗數量。\n• 新增 OTA：啟動後與每 24 小時檢查新版，顯示版本、日期與更新內容。\n• 使用者選擇更新後下載並核對大小及 SHA-256，沿用安裝位置，完成後重新常駐。",
+  "downloadUrl": "https://raw.githubusercontent.com/jongfat/desktop-file-organizer/main/bin/DesktopOrganizer-Setup-1.0.1.exe",
+  "sha256": "11efe149a04364ba39d2dbbabc8a963c5858742b92e194e7331c036cf3d5d9f3",
+  "size": 2060767
+}
