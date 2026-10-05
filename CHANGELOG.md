@@ -1,4 +1,14 @@
-# 版本與更新內容 / Version history
+﻿# 版本與更新內容 / Version history
+
+## 1.0.7 — 2026-10-05
+
+- 整理結果依來源名稱建立，例如 Download檔案整理資料夾；舊版「桌面資料整理」與「桌面整理工具」整包遷移，保留紀錄路徑關聯及分類規則。
+- 系統匣新增「檔案回復」，位於「整理所選資料夾」下方。選擇來源並確認後，依紀錄追溯多次搬移與分類變更，將檔案及完整原資料夾搬回原處。
+- 同名不覆蓋、鎖定失敗可重試，未記錄內容保留；全數回復且無剩餘使用者内容才移除整理資料夾和原始工具警示檔，紀錄繼續保留。
+- 回復後只暫停該來源，重啟保留；立即整理重新啟用所有監視來源，單次整理重新啟用所選來源。其他監視來源繼續運作。
+- 新舊結果同時存在時停止整理，可先回復再整理；不合併或覆蓋內容。中斷搬移可依先行紀錄辨識已完成的操作。
+
+Source-based output names with legacy path migration. A confirmed tray restoration command follows move chains back to the original locations, preserves conflicts and unrecorded contents, and removes only empty results and unmodified generated metadata. Restored sources stay paused across restarts until explicitly resumed.
 
 ## 1.0.6 — 2026-10-05
 
