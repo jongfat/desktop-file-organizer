@@ -2,9 +2,13 @@
 
 [繁體中文](README.md) · [简体中文](docs/README.zh-CN.md) · [English](docs/README.en.md) · [日本語](docs/README.ja.md) · [한국어](docs/README.ko.md) · [Italiano](docs/README.it.md)
 
+## 1.0.8 · 2026-10-05
+
+桌面固定使用 **「桌面檔案整理」**，不再使用 Desktop檔案整理資料夾。其他來源仍依實際名稱命名，例如 Download檔案整理資料夾。下次整理會自動遷移 1.0.7 的桌面結果，以及更舊的桌面資料整理／桌面整理工具；檔案內容、分類及歷史紀錄關聯保留，檔案回復支援連續升級的路徑。若新舊結果同時存在，保留雙方並停止整理，可先使用檔案回復處理。
+
 ## 1.0.7 · 2026-10-05：每個來源有自己的名稱，檔案也能回到原處
 
-整理結果依來源資料夾的實際名稱建立：`Download → Download檔案整理資料夾`，`Desktop → Desktop檔案整理資料夾`。舊版「桌面資料整理」或「桌面整理工具」會在下次整理時整包遷移，分類、內容與歷史紀錄的路徑關聯保留，不重新建立一份資料。
+整理結果依來源資料夾的實際名稱建立：`Download → Download檔案整理資料夾`，`桌面 → 桌面檔案整理`。舊版「桌面資料整理」或「桌面整理工具」會在下次整理時整包遷移，分類、內容與歷史紀錄的路徑關聯保留，不重新建立一份資料。
 
 系統匣右鍵 → **「檔案回復」** → 選擇原始來源資料夾（例如 Download）→ 確認。工具依整理紀錄追溯原位置，包含 Today、改過分類的檔案與整包原資料夾；捷徑不動。同名不覆蓋，鎖定或失敗項目保留，可處理後再次回復。未記錄的內容不猜測原位置。只有全部回復且沒有剩餘使用者內容時，才刪除整理資料夾及工具產生的警示檔；歷史紀錄保留。
 
@@ -70,7 +74,7 @@
 
 「暫停自動整理」套用全部來源；「立即整理」巡查全部來源。原有「整理所選資料夾」仍可選擇、確認後整理一次，同樣套用 Today 規則，跨日後需再次整理或加入監視。
 
-系統匣「版本 · 檢查更新」顯示版本、日期及更新內容。**1.0.1～1.0.6 可透過 OTA 升級；1.0.0 請手動安裝 1.0.7。** [後續版本發布流程](updates/README.md)
+系統匣「版本 · 檢查更新」顯示版本、日期及更新內容。**1.0.1～1.0.7 可透過 OTA 升級；1.0.0 請手動安裝 1.0.8。** [後續版本發布流程](updates/README.md)
 
 > **桌面留給靈感，雜亂交給我。**
 
@@ -82,9 +86,9 @@ Desktop Organizer 在 Windows 系統匣待命，把散落的檔案送進對應�
 
 ## 🚀 一個安裝檔，重新開場
 
-成品位置：`bin/DesktopOrganizer-Setup-1.0.7.exe`。
+成品位置：`bin/DesktopOrganizer-Setup-1.0.8.exe`。
 
-**[⬇️ 下載 Windows 安裝程式](https://github.com/jongfat/desktop-file-organizer/raw/refs/heads/main/bin/DesktopOrganizer-Setup-1.0.7.exe)**
+**[⬇️ 下載 Windows 安裝程式](https://github.com/jongfat/desktop-file-organizer/raw/refs/heads/main/bin/DesktopOrganizer-Setup-1.0.8.exe)**
 
 1. 雙擊 EXE，跟著繁體中文安裝精靈操作。
 2. 選擇桌面捷徑與登入自動啟動。

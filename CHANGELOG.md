@@ -1,5 +1,13 @@
 ﻿# 版本與更新內容 / Version history
 
+## 1.0.8 — 2026-10-05
+
+- 桌面結果固定使用「桌面檔案整理」；其他來源維持來源名稱＋檔案整理資料夾。
+- 自動遷移 1.0.7 的桌面來源名稱結果，並支援更舊名稱經多次升級的路徑對應。檔案、分類與回復紀錄保留。
+- 桌面新舊整理結果均排除於來源監視與一般搬移，避免把旧整理結果再當成原資料夾分類。新舊同時存在時保留雙方、停止整理，可先回復。
+
+The desktop uses the fixed output name 桌面檔案整理. Other sources keep source-based names. Migration and restoration follow chained root renames across upgrades while protecting all recognized desktop outputs.
+
 ## 1.0.7 — 2026-10-05
 
 - 整理結果依來源名稱建立，例如 Download檔案整理資料夾；舊版「桌面資料整理」與「桌面整理工具」整包遷移，保留紀錄路徑關聯及分類規則。
