@@ -1,5 +1,12 @@
 # 版本與更新內容 / Version history
 
+## 1.0.6 — 2026-10-05
+
+- 系統匣右鍵選單依使用流程重排：開啟整理資料夾置頂，接著為立即整理／暫停、單次資料夾整理、監視／規則、紀錄／版本檢查、結束。
+- 加入五條分隔線，將相關功能分組。版本列格式改為「版本 1.0.6·檢查更新」，版本號仍動態顯示。
+
+Reordered the tray menu with Open organized folder first and five separators between command groups. The update entry continues to show the installed version dynamically.
+
 ## 1.0.5 — 2026-10-05
 
 - 修正規則樹無法拖曳：副檔名可拖到分類更改關聯，拖到其他類別可恢復自動歸類。

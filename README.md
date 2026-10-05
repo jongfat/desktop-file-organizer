@@ -2,6 +2,28 @@
 
 [繁體中文](README.md) · [简体中文](docs/README.zh-CN.md) · [English](docs/README.en.md) · [日本語](docs/README.ja.md) · [한국어](docs/README.ko.md) · [Italiano](docs/README.it.md)
 
+## 1.0.6 · 2026-10-05：右鍵選單重新分組
+
+「開啟整理資料夾」置頂，其他功能依下列順序排列，組間加入五條分隔線。版本列動態顯示目前版本。
+
+```text
+開啟整理資料夾
+────────────
+立即整理
+暫停自動整理
+────────────
+整理所選資料夾
+────────────
+資料夾監視
+規則
+────────────
+查看整理紀錄
+版本 1.0.6·檢查更新
+────────────
+結束
+```
+
+
 ## 1.0.5 · 2026-10-05：拖曳即可調整分類
 
 修正 1.0.4 規則樹無法拖曳的問題。可將副檔名（如 .iso）拖到「程式」直接改變關聯；也可拖曳整個 ISO 分類，選擇「合併關聯」讓檔案直接歸到程式，或「移為子分類」保留為程式／ISO。子分類與副檔名一併更新，拖到整理根節點可移回頂層；副檔名拖到「其他類別」恢復自動歸類。目標會反白，拖到樹的上下邊緣可捲動。
@@ -22,7 +44,7 @@
 
 「暫停自動整理」套用全部來源；「立即整理」巡查全部來源。原有「整理所選資料夾」仍可選擇、確認後整理一次，同樣套用 Today 規則，跨日後需再次整理或加入監視。
 
-系統匣「版本 · 檢查更新」顯示版本、日期及更新內容。**1.0.1～1.0.4 可透過 OTA 升級；1.0.0 請手動安裝 1.0.5。** [後續版本發布流程](updates/README.md)
+系統匣「版本 · 檢查更新」顯示版本、日期及更新內容。**1.0.1～1.0.5 可透過 OTA 升級；1.0.0 請手動安裝 1.0.6。** [後續版本發布流程](updates/README.md)
 
 > **桌面留給靈感，雜亂交給我。**
 
@@ -34,9 +56,9 @@ Desktop Organizer 在 Windows 系統匣待命，把散落的檔案送進對應�
 
 ## 🚀 一個安裝檔，重新開場
 
-成品位置：`bin/DesktopOrganizer-Setup-1.0.5.exe`。
+成品位置：`bin/DesktopOrganizer-Setup-1.0.6.exe`。
 
-**[⬇️ 下載 Windows 安裝程式](https://github.com/jongfat/desktop-file-organizer/raw/refs/heads/main/bin/DesktopOrganizer-Setup-1.0.5.exe)**
+**[⬇️ 下載 Windows 安裝程式](https://github.com/jongfat/desktop-file-organizer/raw/refs/heads/main/bin/DesktopOrganizer-Setup-1.0.6.exe)**
 
 1. 雙擊 EXE，跟著繁體中文安裝精靈操作。
 2. 選擇桌面捷徑與登入自動啟動。
