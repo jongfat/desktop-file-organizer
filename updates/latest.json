@@ -1,8 +1,8 @@
 {
-  "version": "1.0.3",
+  "version": "1.0.4",
   "publishedAt": "2026-10-05",
-  "notes": "1.0.3｜多資料夾監視與當日檔案(Today)\n• 系統匣右鍵新增「資料夾監視」，可新增、修改、移除多個資料夾，設定重啟後保留。\n• 每 30 秒一併整理桌面與監視清單，各來源的結果放在其內的「桌面資料整理」。\n• 以最後修改日期判定今日檔案，先集中至「當日檔案(Today)」；跨日後下一輪按原規則分類。\n• 單一位置離線或失敗不影響其他來源，恢復後重試；受監視資料夾保留原位置。\n• 保留捷徑、同名不覆蓋、原子資料夾完整搬移；暫停與立即整理套用全部來源。",
-  "downloadUrl": "https://raw.githubusercontent.com/jongfat/desktop-file-organizer/main/bin/DesktopOrganizer-Setup-1.0.3.exe",
-  "sha256": "d12845d0bb9ce80a560fb98e68c8be7406709f95c3df608b8b3bbaf4c2c4a42d",
-  "size": 2065563
+  "notes": "1.0.4｜樹狀整理規則與副檔名關聯\n• 系統匣右鍵新增「規則」，樹狀顯示分類與副檔名，可新增、修改、刪除關聯，例如 ISO → 程式。\n• 預設共用規則，各監視來源可建立獨立規則或恢復繼承，設定重啟後保留。\n• 儲存前確認受影響來源，立即重新歸類工具記錄的既有歸檔檔案；鎖定或離線持續重試。\n• Today 保留今日檔案，跨日後使用最新規則；原資料夾完整保留，同名不覆蓋。\n• 刪除規則不刪除檔案，未關聯格式自動回到其他類別。",
+  "downloadUrl": "https://raw.githubusercontent.com/jongfat/desktop-file-organizer/main/bin/DesktopOrganizer-Setup-1.0.4.exe",
+  "sha256": "087bb3258653109e13e836b265ffbfa122a0c5c95e0f920decba02d90988dedd",
+  "size": 2074485
 }
