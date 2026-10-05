@@ -2,6 +2,12 @@
 
 [繁體中文](README.md) · [简体中文](docs/README.zh-CN.md) · [English](docs/README.en.md) · [日本語](docs/README.ja.md) · [한국어](docs/README.ko.md) · [Italiano](docs/README.it.md)
 
+**新版 1.0.1 · 2026-10-05：資料夾右鍵整理＋OTA 線上更新。** [版本與更新內容](CHANGELOG.md)
+
+在檔案總管對任一資料夾右鍵，選擇「整理此資料夾」；也可在資料夾內空白處右鍵呼叫。Windows 11 可在「顯示其他選項」找到。安裝時勾選「加入資料夾右鍵選單」。此操作只整理所選資料夾一次，使用相同分類規則，結果放入其內的「桌面資料整理」，捷徑保留，原子資料夾完整搬入「資料夾」。有失敗項目時可再次右鍵重試。
+
+系統匣「版本 · 檢查更新」顯示目前／最新版本、發布日期與更新內容。啟動後及每 24 小時檢查新版；按「下載並更新」後核對大小與 SHA-256，再啟動安裝精靈，沿用安裝位置，完成後重新常駐。斷線不影響整理。若取消精靈，請重新開啟捷徑。**1.0.0 請先手動安裝 1.0.1 一次，之後才支援 OTA。** [後續版本發布流程](updates/README.md)
+
 > **桌面留給靈感，雜亂交給我。**
 
 報表、截圖、安裝檔、壓縮包……你的桌面，值得比「檔案停車場」更好的待遇。
@@ -12,9 +18,9 @@ Desktop Organizer 在 Windows 系統匣待命，把散落的檔案送進對應�
 
 ## 🚀 一個安裝檔，重新開場
 
-成品位置：`bin/DesktopOrganizer-Setup-1.0.0.exe`。
+成品位置：`bin/DesktopOrganizer-Setup-1.0.1.exe`。
 
-**[⬇️ 下載 Windows 安裝程式](https://github.com/jongfat/desktop-file-organizer/raw/refs/heads/main/bin/DesktopOrganizer-Setup-1.0.0.exe)**
+**[⬇️ 下載 Windows 安裝程式](https://github.com/jongfat/desktop-file-organizer/raw/refs/heads/main/bin/DesktopOrganizer-Setup-1.0.1.exe)**
 
 1. 雙擊 EXE，跟著繁體中文安裝精靈操作。
 2. 選擇桌面捷徑與登入自動啟動。
