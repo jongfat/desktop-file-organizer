@@ -1,6 +1,32 @@
-# ⚡ Desktop Organizer
+﻿# ⚡ Desktop Organizer
 
 [繁體中文](../README.md) · [简体中文](README.zh-CN.md) · [English](README.en.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Italiano](README.it.md)
+
+## 1.0.7 · 2026-10-05: Source-based names and file restoration
+
+Output folders use the actual source name: `Download → Download檔案整理資料夾`. On the next organization pass, legacy `桌面資料整理` or `桌面整理工具` folders are renamed as a whole. Contents, categories and recorded path relationships are preserved.
+
+Tray menu → **「檔案回復」 (Restore files)** → choose the original source folder → confirm. The history traces files back to their original locations, including Today files, reclassified files and intact original folders. Shortcuts stay in place. Name conflicts are never overwritten; locked or failed items remain available for retry. Unrecorded contents are preserved. The output folder and generated warning files are removed only after restoration completes and no user contents remain. History is retained.
+
+Restoration pauses automatic organization for that source across restarts. “立即整理” resumes all monitored sources; confirming “整理所選資料夾” resumes only the selected source. If new and legacy output folders coexist, organization stops safely; restore first, then organize again. Items without history require manual handling.
+
+```text
+開啟整理資料夾
+────────────
+立即整理
+暫停自動整理
+────────────
+整理所選資料夾
+檔案回復
+────────────
+資料夾監視
+規則
+────────────
+查看整理紀錄
+版本 1.0.7·檢查更新
+────────────
+結束
+```
 
 ## 1.0.6 · 2026-10-05: A clearer tray menu
 
@@ -36,11 +62,11 @@ All sources inherit shared rules by default. Select the desktop or a monitored f
 
 Saving lists affected sources for confirmation, then immediately reclassifies files previously moved by the tool and still present in archived categories. Original folders under “資料夾” stay intact; unrecorded files are untouched. Today's files remain in Today and use the latest rules after midnight. Collisions never overwrite files; locked or offline requests persist for retry. Only emptied former category folders are removed. Deleting rules sends unassociated formats to “其他類別” by uppercase extension, without deleting files. Today and shortcut/temporary exclusions remain fixed. Settings in `%LOCALAPPDATA%\DesktopOrganizer\sorting-rules.json` survive restarts, upgrades and uninstall. Invalid settings stop file moves until repaired. [Version history](../CHANGELOG.md)
 
-Right-click the Windows tray icon → “資料夾監視” (Folder monitoring) to view the fixed desktop entry and add, edit or remove additional folders. The list survives restarts. All sources are scanned every 30 seconds, with results in each source's own “桌面資料整理” folder. Removing an entry stops monitoring and preserves data. Offline or failing locations do not block the others; scanning resumes when they return. Watched folders and their ancestors stay in place. Additional roots cannot duplicate or contain each other.
+Right-click the Windows tray icon → “資料夾監視” (Folder monitoring) to view the fixed desktop entry and add, edit or remove additional folders. The list survives restarts. All sources are scanned every 30 seconds, with results in each source's own “XXX檔案整理資料夾” folder. Removing an entry stops monitoring and preserves data. Offline or failing locations do not block the others; scanning resumes when they return. Watched folders and their ancestors stay in place. Additional roots cannot duplicate or contain each other.
 
 Files awaiting sorting whose local last-modified date is today go into “當日檔案(Today)” together, regardless of format. The first scan after the date changes archives older files into the usual categories. Files edited again on the current day remain in Today. Shortcuts stay in place and original subfolders move intact into “資料夾”. Previously archived categories and the contents of original subfolders are not pulled back into Today.
 
-Pause applies to all sources; Organize now scans them all. The single-folder selection/confirmation command uses the same Today rule: run it again after midnight or add the folder to monitoring for automatic archiving. **1.0.1–1.0.5 can upgrade via OTA; 1.0.0 users must manually install 1.0.6.** [Version history](../CHANGELOG.md)
+Pause applies to all sources; Organize now scans them all. The single-folder selection/confirmation command uses the same Today rule: run it again after midnight or add the folder to monitoring for automatic archiving. **1.0.1–1.0.6 can upgrade via OTA; 1.0.0 users must manually install 1.0.7.** [Version history](../CHANGELOG.md)
 
 > **Make room for ideas. Give clutter a place to go.**
 
@@ -52,9 +78,9 @@ Desktop Organizer waits in the Windows system tray, sorts loose files into their
 
 ## 🚀 One file. A fresh start.
 
-Installer location, relative to the project root: `bin/DesktopOrganizer-Setup-1.0.6.exe`.
+Installer location, relative to the project root: `bin/DesktopOrganizer-Setup-1.0.7.exe`.
 
-**[⬇️ Download the Windows installer](https://github.com/jongfat/desktop-file-organizer/raw/refs/heads/main/bin/DesktopOrganizer-Setup-1.0.6.exe)**
+**[⬇️ Download the Windows installer](https://github.com/jongfat/desktop-file-organizer/raw/refs/heads/main/bin/DesktopOrganizer-Setup-1.0.7.exe)**
 
 1. Double-click the EXE and follow the Traditional Chinese installation wizard.
 2. Choose whether to create a desktop shortcut and start automatically at sign-in.
@@ -68,7 +94,7 @@ Requires **Windows 10/11** and **.NET Framework 4.8**. The installer checks for 
 
 ## 🗂️ A place for every file
 
-All categories live inside `桌面資料整理` on your desktop.
+All categories live inside `XXX檔案整理資料夾` on your desktop.
 
 | Format | Destination |
 | --- | --- |
@@ -103,7 +129,7 @@ Right-click the tray icon to organize now, pause automatic organization, open th
 
 The tool uses your Windows user desktop location, including desktops redirected to OneDrive. Automatic startup occurs when you sign in to Windows.
 
-> ⚠️ **`桌面資料整理` contains your original files. Do not delete it.** The warning icon is a reminder, not a deletion lock. Organization is not a backup; back up important files separately.
+> ⚠️ **`XXX檔案整理資料夾` contains your original files. Do not delete it.** The warning icon is a reminder, not a deletion lock. Organization is not a backup; back up important files separately.
 
 ## 🔄 Update, disable, or uninstall
 

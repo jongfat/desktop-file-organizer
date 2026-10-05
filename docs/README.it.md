@@ -1,6 +1,32 @@
-# ⚡ Desktop Organizer
+﻿# ⚡ Desktop Organizer
 
 [繁體中文](../README.md) · [简体中文](README.zh-CN.md) · [English](README.en.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Italiano](README.it.md)
+
+## 1.0.7 · 2026-10-05: Nomi per origine e ripristino dei file
+
+Il risultato usa il nome effettivo della cartella di origine: `Download → Download檔案整理資料夾`. Al prossimo riordino, le vecchie cartelle «桌面資料整理» o «桌面整理工具» vengono migrate interamente, conservando contenuti, categorie e relazioni dei percorsi nel registro.
+
+Menu del vassoio → **「檔案回復」 (Ripristina file)** → seleziona la cartella di origine → conferma. Il registro ricostruisce la posizione originale, anche per i file Today, i file riclassificati e le cartelle originali complete. I collegamenti restano al loro posto. Nessuna sovrascrittura in caso di nomi uguali; gli elementi bloccati o non riusciti restano disponibili per un nuovo tentativo. I contenuti senza registro vengono conservati. La cartella dei risultati e gli avvisi generati vengono eliminati solo quando il ripristino è completo e non rimangono contenuti utente. Il registro viene conservato.
+
+Il ripristino sospende solo quella origine, anche dopo il riavvio. «立即整理» riattiva tutte le origini monitorate; la conferma di «整理所選資料夾» riattiva soltanto quella scelta. Se coesistono risultati nuovi e precedenti, il riordino si arresta: ripristina prima, poi riordina. I contenuti privi di registro richiedono intervento manuale.
+
+```text
+開啟整理資料夾
+────────────
+立即整理
+暫停自動整理
+────────────
+整理所選資料夾
+檔案回復
+────────────
+資料夾監視
+規則
+────────────
+查看整理紀錄
+版本 1.0.7·檢查更新
+────────────
+結束
+```
 
 ## 1.0.6 · 2026-10-05: Menu più ordinato
 
@@ -36,11 +62,11 @@ Tutte le origini ereditano le regole condivise. Seleziona il desktop o una carte
 
 Il salvataggio chiede conferma delle origini coinvolte, poi riclassifica subito i file già spostati dallo strumento e ancora presenti nelle categorie archiviate. Le cartelle originali in “資料夾” e i file non registrati restano intatti. I file odierni rimangono in Today e usano le nuove regole dopo il cambio di data. Nessuna sovrascrittura; file bloccati e origini offline vengono ritentati. Si rimuovono soltanto le vecchie categorie svuotate. Eliminare una regola non elimina file: i formati senza associazione tornano in “其他類別” per estensione maiuscola. Today e le esclusioni di collegamenti e file temporanei restano fissi. Le impostazioni in `%LOCALAPPDATA%\DesktopOrganizer\sorting-rules.json` sopravvivono a riavvii, aggiornamenti e disinstallazione. Se il file è danneggiato, gli spostamenti si fermano fino alla correzione. [Cronologia](../CHANGELOG.md)
 
-Clic destro sull'icona nel vassoio di Windows → «資料夾監視» (Monitoraggio cartelle) per visualizzare il desktop fisso e aggiungere, modificare o rimuovere altre cartelle. La lista viene conservata dopo il riavvio. Tutte le origini vengono controllate ogni 30 secondi e i risultati rimangono nella rispettiva «桌面資料整理». Rimuovere una voce interrompe il monitoraggio senza eliminare dati. Origini offline o in errore non bloccano le altre e vengono riprovate al ritorno. Le cartelle monitorate e i loro antenati restano al loro posto. Le origini aggiuntive non possono duplicarsi o contenersi.
+Clic destro sull'icona nel vassoio di Windows → «資料夾監視» (Monitoraggio cartelle) per visualizzare il desktop fisso e aggiungere, modificare o rimuovere altre cartelle. La lista viene conservata dopo il riavvio. Tutte le origini vengono controllate ogni 30 secondi e i risultati rimangono nella rispettiva «XXX檔案整理資料夾». Rimuovere una voce interrompe il monitoraggio senza eliminare dati. Origini offline o in errore non bloccano le altre e vengono riprovate al ritorno. Le cartelle monitorate e i loro antenati restano al loro posto. Le origini aggiuntive non possono duplicarsi o contenersi.
 
 I file in attesa di organizzazione con data locale di ultima modifica odierna vengono raccolti in «當日檔案(Today)», senza distinguere il formato. Al primo controllo dopo il cambio di data, quelli più vecchi passano alle categorie abituali. I file modificati nuovamente oggi restano in Today. Collegamenti e struttura delle sottocartelle originali vengono conservati; i file già archiviati nelle categorie e quelli dentro le sottocartelle originali non vengono riportati in Today.
 
-Pausa e organizzazione immediata si applicano a tutte le origini. Il comando per una singola cartella usa la stessa regola Today: eseguilo di nuovo il giorno successivo oppure aggiungi la cartella al monitoraggio. **1.0.1–1.0.5 possono aggiornarsi via OTA; gli utenti della 1.0.0 devono installare manualmente la 1.0.5.** [Cronologia versioni](../CHANGELOG.md)
+Pausa e organizzazione immediata si applicano a tutte le origini. Il comando per una singola cartella usa la stessa regola Today: eseguilo di nuovo il giorno successivo oppure aggiungi la cartella al monitoraggio. **1.0.1–1.0.6 possono aggiornarsi via OTA; gli utenti della 1.0.0 devono installare manualmente la 1.0.7.** [Cronologia versioni](../CHANGELOG.md)
 
 > **Spazio alle idee. Un posto per ogni file.**
 
@@ -52,9 +78,9 @@ Desktop Organizer resta nell'area di notifica di Windows, ordina i file singoli 
 
 ## 🚀 Un file. Un nuovo inizio.
 
-Percorso dell'installer, dalla cartella principale del progetto: `bin/DesktopOrganizer-Setup-1.0.6.exe`.
+Percorso dell'installer, dalla cartella principale del progetto: `bin/DesktopOrganizer-Setup-1.0.7.exe`.
 
-**[⬇️ Scarica l'installer per Windows](https://github.com/jongfat/desktop-file-organizer/raw/refs/heads/main/bin/DesktopOrganizer-Setup-1.0.6.exe)**
+**[⬇️ Scarica l'installer per Windows](https://github.com/jongfat/desktop-file-organizer/raw/refs/heads/main/bin/DesktopOrganizer-Setup-1.0.7.exe)**
 
 1. Fai doppio clic sull'EXE e segui la procedura guidata in cinese tradizionale.
 2. Scegli se creare un collegamento sul desktop e avviare il programma all'accesso.
@@ -68,7 +94,7 @@ Richiede **Windows 10/11** e **.NET Framework 4.8**. L'installer controlla la pr
 
 ## 🗂️ Un posto per ogni formato
 
-Tutte le categorie si trovano nella cartella `桌面資料整理` sul desktop.
+Tutte le categorie si trovano nella cartella `XXX檔案整理資料夾` sul desktop.
 
 | Formato | Destinazione |
 | --- | --- |
@@ -103,7 +129,7 @@ Con il clic destro sull'icona nell'area di notifica puoi riordinare subito, mett
 
 Usa il percorso del desktop dell'utente configurato in Windows, anche se reindirizzato a OneDrive. L'avvio automatico avviene quando accedi a Windows.
 
-> ⚠️ **`桌面資料整理` contiene i file originali. Non eliminarla.** L'icona di avviso è un promemoria e non blocca l'eliminazione. Riordinare non significa fare un backup: salva separatamente una copia dei file importanti.
+> ⚠️ **`XXX檔案整理資料夾` contiene i file originali. Non eliminarla.** L'icona di avviso è un promemoria e non blocca l'eliminazione. Riordinare non significa fare un backup: salva separatamente una copia dei file importanti.
 
 ## 🔄 Aggiornare, disattivare o disinstallare
 
