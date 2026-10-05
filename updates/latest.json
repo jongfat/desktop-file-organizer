@@ -1,8 +1,8 @@
 {
-  "version": "1.0.2",
+  "version": "1.0.3",
   "publishedAt": "2026-10-05",
-  "notes": "1.0.2｜系統匣選擇資料夾整理\n• 於 Windows 系統匣程式圖示按右鍵，選擇「整理所選資料夾」。\n• 開啟資料夾選擇視窗，選定後顯示來源與整理結果位置，確認後才開始整理。\n• 取消選擇或取消確認時，不建立整理資料夾、不搬移檔案。\n• 依相同規則分類，保留捷徑、原子資料夾完整搬移、同名不覆蓋。\n• 移除 1.0.1 的檔案總管右鍵選單整合；保留 OTA、版本及更新內容顯示。",
-  "downloadUrl": "https://raw.githubusercontent.com/jongfat/desktop-file-organizer/main/bin/DesktopOrganizer-Setup-1.0.2.exe",
-  "sha256": "f892c07eeee50246e39b87af3f8e2725e2a4750af8e5f23df6b64b3e63a37e26",
-  "size": 2061471
+  "notes": "1.0.3｜多資料夾監視與當日檔案(Today)\n• 系統匣右鍵新增「資料夾監視」，可新增、修改、移除多個資料夾，設定重啟後保留。\n• 每 30 秒一併整理桌面與監視清單，各來源的結果放在其內的「桌面資料整理」。\n• 以最後修改日期判定今日檔案，先集中至「當日檔案(Today)」；跨日後下一輪按原規則分類。\n• 單一位置離線或失敗不影響其他來源，恢復後重試；受監視資料夾保留原位置。\n• 保留捷徑、同名不覆蓋、原子資料夾完整搬移；暫停與立即整理套用全部來源。",
+  "downloadUrl": "https://raw.githubusercontent.com/jongfat/desktop-file-organizer/main/bin/DesktopOrganizer-Setup-1.0.3.exe",
+  "sha256": "d12845d0bb9ce80a560fb98e68c8be7406709f95c3df608b8b3bbaf4c2c4a42d",
+  "size": 2065563
 }
