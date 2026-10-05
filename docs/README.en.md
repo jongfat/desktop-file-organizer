@@ -2,6 +2,10 @@
 
 [繁體中文](../README.md) · [简体中文](README.zh-CN.md) · [English](README.en.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Italiano](README.it.md)
 
+## 1.0.8 · 2026-10-05
+
+The desktop now always uses **「桌面檔案整理」**, rather than Desktop檔案整理資料夾. Other sources keep their source-based names, such as Download檔案整理資料夾. The next scan migrates desktop results from 1.0.7 and older versions, retaining contents, categories and chained history relationships for restoration. If old and new outputs coexist, both are preserved and sorting stops; use Restore files first.
+
 ## 1.0.7 · 2026-10-05: Source-based names and file restoration
 
 Output folders use the actual source name: `Download → Download檔案整理資料夾`. On the next organization pass, legacy `桌面資料整理` or `桌面整理工具` folders are renamed as a whole. Contents, categories and recorded path relationships are preserved.
@@ -66,7 +70,7 @@ Right-click the Windows tray icon → “資料夾監視” (Folder monitoring) 
 
 Files awaiting sorting whose local last-modified date is today go into “當日檔案(Today)” together, regardless of format. The first scan after the date changes archives older files into the usual categories. Files edited again on the current day remain in Today. Shortcuts stay in place and original subfolders move intact into “資料夾”. Previously archived categories and the contents of original subfolders are not pulled back into Today.
 
-Pause applies to all sources; Organize now scans them all. The single-folder selection/confirmation command uses the same Today rule: run it again after midnight or add the folder to monitoring for automatic archiving. **1.0.1–1.0.6 can upgrade via OTA; 1.0.0 users must manually install 1.0.7.** [Version history](../CHANGELOG.md)
+Pause applies to all sources; Organize now scans them all. The single-folder selection/confirmation command uses the same Today rule: run it again after midnight or add the folder to monitoring for automatic archiving. **1.0.1–1.0.7 can upgrade via OTA; 1.0.0 users must manually install 1.0.8.** [Version history](../CHANGELOG.md)
 
 > **Make room for ideas. Give clutter a place to go.**
 
@@ -78,9 +82,9 @@ Desktop Organizer waits in the Windows system tray, sorts loose files into their
 
 ## 🚀 One file. A fresh start.
 
-Installer location, relative to the project root: `bin/DesktopOrganizer-Setup-1.0.7.exe`.
+Installer location, relative to the project root: `bin/DesktopOrganizer-Setup-1.0.8.exe`.
 
-**[⬇️ Download the Windows installer](https://github.com/jongfat/desktop-file-organizer/raw/refs/heads/main/bin/DesktopOrganizer-Setup-1.0.7.exe)**
+**[⬇️ Download the Windows installer](https://github.com/jongfat/desktop-file-organizer/raw/refs/heads/main/bin/DesktopOrganizer-Setup-1.0.8.exe)**
 
 1. Double-click the EXE and follow the Traditional Chinese installation wizard.
 2. Choose whether to create a desktop shortcut and start automatically at sign-in.

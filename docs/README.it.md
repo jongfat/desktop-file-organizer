@@ -2,6 +2,10 @@
 
 [繁體中文](../README.md) · [简体中文](README.zh-CN.md) · [English](README.en.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Italiano](README.it.md)
 
+## 1.0.8 · 2026-10-05
+
+Il desktop usa sempre **「桌面檔案整理」**, invece di Desktop檔案整理資料夾. Le altre origini mantengono nomi come Download檔案整理資料夾. Il prossimo riordino migra i risultati del desktop dalla versione 1.0.7 e dalle versioni precedenti, conservando contenuti, categorie e relazioni concatenate del registro. Se coesistono risultati vecchi e nuovi, entrambi vengono preservati e il riordino si arresta; usa prima 「檔案回復」.
+
 ## 1.0.7 · 2026-10-05: Nomi per origine e ripristino dei file
 
 Il risultato usa il nome effettivo della cartella di origine: `Download → Download檔案整理資料夾`. Al prossimo riordino, le vecchie cartelle «桌面資料整理» o «桌面整理工具» vengono migrate interamente, conservando contenuti, categorie e relazioni dei percorsi nel registro.
@@ -66,7 +70,7 @@ Clic destro sull'icona nel vassoio di Windows → «資料夾監視» (Monitorag
 
 I file in attesa di organizzazione con data locale di ultima modifica odierna vengono raccolti in «當日檔案(Today)», senza distinguere il formato. Al primo controllo dopo il cambio di data, quelli più vecchi passano alle categorie abituali. I file modificati nuovamente oggi restano in Today. Collegamenti e struttura delle sottocartelle originali vengono conservati; i file già archiviati nelle categorie e quelli dentro le sottocartelle originali non vengono riportati in Today.
 
-Pausa e organizzazione immediata si applicano a tutte le origini. Il comando per una singola cartella usa la stessa regola Today: eseguilo di nuovo il giorno successivo oppure aggiungi la cartella al monitoraggio. **1.0.1–1.0.6 possono aggiornarsi via OTA; gli utenti della 1.0.0 devono installare manualmente la 1.0.7.** [Cronologia versioni](../CHANGELOG.md)
+Pausa e organizzazione immediata si applicano a tutte le origini. Il comando per una singola cartella usa la stessa regola Today: eseguilo di nuovo il giorno successivo oppure aggiungi la cartella al monitoraggio. **1.0.1–1.0.7 possono aggiornarsi via OTA; gli utenti della 1.0.0 devono installare manualmente la 1.0.7.** [Cronologia versioni](../CHANGELOG.md)
 
 > **Spazio alle idee. Un posto per ogni file.**
 
@@ -78,9 +82,9 @@ Desktop Organizer resta nell'area di notifica di Windows, ordina i file singoli 
 
 ## 🚀 Un file. Un nuovo inizio.
 
-Percorso dell'installer, dalla cartella principale del progetto: `bin/DesktopOrganizer-Setup-1.0.7.exe`.
+Percorso dell'installer, dalla cartella principale del progetto: `bin/DesktopOrganizer-Setup-1.0.8.exe`.
 
-**[⬇️ Scarica l'installer per Windows](https://github.com/jongfat/desktop-file-organizer/raw/refs/heads/main/bin/DesktopOrganizer-Setup-1.0.7.exe)**
+**[⬇️ Scarica l'installer per Windows](https://github.com/jongfat/desktop-file-organizer/raw/refs/heads/main/bin/DesktopOrganizer-Setup-1.0.8.exe)**
 
 1. Fai doppio clic sull'EXE e segui la procedura guidata in cinese tradizionale.
 2. Scegli se creare un collegamento sul desktop e avviare il programma all'accesso.

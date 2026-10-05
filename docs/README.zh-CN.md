@@ -2,6 +2,10 @@
 
 [繁體中文](../README.md) · [简体中文](README.zh-CN.md) · [English](README.en.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Italiano](README.it.md)
 
+## 1.0.8 · 2026-10-05
+
+桌面固定使用 **「桌面檔案整理」**，不再使用 Desktop檔案整理資料夾。其他来源仍按实际名称命名，例如 Download檔案整理資料夾。下次整理会迁移 1.0.7 和更旧的桌面结果，保留内容、分类及历史路径关联，文件还原支持连续升级。新旧结果同时存在时保留双方并停止整理，可先使用「檔案回復」。
+
 ## 1.0.7 · 2026-10-05：按来源命名，文件可以还原
 
 结果使用来源文件夹的实际名称，例如 `Download → Download檔案整理資料夾`。旧版「桌面資料整理」或「桌面整理工具」在下次整理时整体迁移，保留内容、分类和历史路径关联。
@@ -66,7 +70,7 @@
 
 当日待整理文件按本机最后修改日期，先集中到「當日檔案(Today)」，不分格式；跨日后下一轮再按原分类归档。Today 中当天再次修改的文件继续保留。快捷方式保留，原子文件夹完整移至「資料夾」；已归档分类与原子文件夹内部文件不会重新收回 Today。
 
-暂停适用于全部来源，立即整理一起巡查全部位置。单次「整理所選資料夾」也采用 Today 规则；跨日后需再次整理或加入监视。**1.0.1～1.0.6 可使用 OTA；1.0.0 请手动安装 1.0.7。** [版本记录](../CHANGELOG.md)
+暂停适用于全部来源，立即整理一起巡查全部位置。单次「整理所選資料夾」也采用 Today 规则；跨日后需再次整理或加入监视。**1.0.1～1.0.7 可使用 OTA；1.0.0 请手动安装 1.0.8。** [版本记录](../CHANGELOG.md)
 
 > **桌面留给灵感，杂乱交给我。**
 
@@ -78,9 +82,9 @@ Desktop Organizer 在 Windows 系统托盘待命，将散落的文件送入对�
 
 ## 🚀 一个安装文件，重新开场
 
-安装文件位于项目根目录下的 `bin/DesktopOrganizer-Setup-1.0.7.exe`。
+安装文件位于项目根目录下的 `bin/DesktopOrganizer-Setup-1.0.8.exe`。
 
-**[⬇️ 下载 Windows 安装程序](https://github.com/jongfat/desktop-file-organizer/raw/refs/heads/main/bin/DesktopOrganizer-Setup-1.0.7.exe)**
+**[⬇️ 下载 Windows 安装程序](https://github.com/jongfat/desktop-file-organizer/raw/refs/heads/main/bin/DesktopOrganizer-Setup-1.0.8.exe)**
 
 1. 双击 EXE，按繁体中文安装向导操作。
 2. 选择桌面快捷方式和登录自动启动。
