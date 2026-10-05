@@ -2,11 +2,13 @@
 
 [繁體中文](../README.md) · [简体中文](README.zh-CN.md) · [English](README.en.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Italiano](README.it.md)
 
-## What's new in 1.0.2 · 2026-10-05
+## What's new in 1.0.3 · 2026-10-05
 
-Right-click the application's Windows tray icon and choose “整理所選資料夾” (Organize selected folder). Select a folder, review the source and destination, then confirm to start sorting. Cancelling either step leaves files unchanged. The same categories apply, with results inside the selected folder's “桌面資料整理”; shortcuts stay in place and original subfolders move intact into “資料夾”. Select the same folder again to retry failed moves. Upgrading removes the Explorer context menu introduced in 1.0.1.
+Right-click the Windows tray icon → “資料夾監視” (Folder monitoring) to view the fixed desktop entry and add, edit or remove additional folders. The list survives restarts. All sources are scanned every 30 seconds, with results in each source's own “桌面資料整理” folder. Removing an entry stops monitoring and preserves data. Offline or failing locations do not block the others; scanning resumes when they return. Watched folders and their ancestors stay in place. Additional roots cannot duplicate or contain each other.
 
-The tray's update window shows installed/latest versions, release date and notes. Checks run after startup and every 24 hours; downloads are checked against their size and SHA-256 before installation and restart. **1.0.1 can update via OTA; users of 1.0.0 must manually install 1.0.2 first.** If you cancel installation, reopen the shortcut. [Version history](../CHANGELOG.md)
+Files awaiting sorting whose local last-modified date is today go into “當日檔案(Today)” together, regardless of format. The first scan after the date changes archives older files into the usual categories. Files edited again on the current day remain in Today. Shortcuts stay in place and original subfolders move intact into “資料夾”. Previously archived categories and the contents of original subfolders are not pulled back into Today.
+
+Pause applies to all sources; Organize now scans them all. The single-folder selection/confirmation command uses the same Today rule: run it again after midnight or add the folder to monitoring for automatic archiving. **1.0.1/1.0.2 can upgrade via OTA; 1.0.0 users must manually install 1.0.3.** [Version history](../CHANGELOG.md)
 
 > **Make room for ideas. Give clutter a place to go.**
 
@@ -18,9 +20,9 @@ Desktop Organizer waits in the Windows system tray, sorts loose files into their
 
 ## 🚀 One file. A fresh start.
 
-Installer location, relative to the project root: `bin/DesktopOrganizer-Setup-1.0.2.exe`.
+Installer location, relative to the project root: `bin/DesktopOrganizer-Setup-1.0.3.exe`.
 
-**[⬇️ Download the Windows installer](https://github.com/jongfat/desktop-file-organizer/raw/refs/heads/main/bin/DesktopOrganizer-Setup-1.0.2.exe)**
+**[⬇️ Download the Windows installer](https://github.com/jongfat/desktop-file-organizer/raw/refs/heads/main/bin/DesktopOrganizer-Setup-1.0.3.exe)**
 
 1. Double-click the EXE and follow the Traditional Chinese installation wizard.
 2. Choose whether to create a desktop shortcut and start automatically at sign-in.

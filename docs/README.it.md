@@ -2,11 +2,13 @@
 
 [繁體中文](../README.md) · [简体中文](README.zh-CN.md) · [English](README.en.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Italiano](README.it.md)
 
-## Novità della versione 1.0.2 · 2026-10-05
+## Novità della versione 1.0.3 · 2026-10-05
 
-Fai clic destro sull'icona dell'app nel vassoio di Windows e scegli «整理所選資料夾» (Organizza la cartella selezionata). Seleziona una cartella, controlla origine e destinazione, quindi conferma per iniziare. Annullando la selezione o la conferma, i file rimangono invariati. Le categorie sono le stesse e i risultati si trovano nella cartella «桌面資料整理» all'interno di quella selezionata. I collegamenti e il contenuto delle sottocartelle vengono conservati. Per riprovare, seleziona nuovamente la stessa cartella. L'aggiornamento rimuove il menu di Esplora file introdotto nella 1.0.1.
+Clic destro sull'icona nel vassoio di Windows → «資料夾監視» (Monitoraggio cartelle) per visualizzare il desktop fisso e aggiungere, modificare o rimuovere altre cartelle. La lista viene conservata dopo il riavvio. Tutte le origini vengono controllate ogni 30 secondi e i risultati rimangono nella rispettiva «桌面資料整理». Rimuovere una voce interrompe il monitoraggio senza eliminare dati. Origini offline o in errore non bloccano le altre e vengono riprovate al ritorno. Le cartelle monitorate e i loro antenati restano al loro posto. Le origini aggiuntive non possono duplicarsi o contenersi.
 
-La finestra nel vassoio mostra versione installata/ultima, data e novità. Controlla dopo l'avvio e ogni 24 ore; verifica dimensione e SHA-256 prima di installare e riavviare. **La 1.0.1 può aggiornarsi via OTA; gli utenti della 1.0.0 devono prima installare manualmente la 1.0.2.** Se annulli l'installazione, riapri il collegamento. [Cronologia versioni](../CHANGELOG.md)
+I file in attesa di organizzazione con data locale di ultima modifica odierna vengono raccolti in «當日檔案(Today)», senza distinguere il formato. Al primo controllo dopo il cambio di data, quelli più vecchi passano alle categorie abituali. I file modificati nuovamente oggi restano in Today. Collegamenti e struttura delle sottocartelle originali vengono conservati; i file già archiviati nelle categorie e quelli dentro le sottocartelle originali non vengono riportati in Today.
+
+Pausa e organizzazione immediata si applicano a tutte le origini. Il comando per una singola cartella usa la stessa regola Today: eseguilo di nuovo il giorno successivo oppure aggiungi la cartella al monitoraggio. **1.0.1/1.0.2 possono aggiornarsi via OTA; gli utenti della 1.0.0 devono installare manualmente la 1.0.3.** [Cronologia versioni](../CHANGELOG.md)
 
 > **Spazio alle idee. Un posto per ogni file.**
 
@@ -18,9 +20,9 @@ Desktop Organizer resta nell'area di notifica di Windows, ordina i file singoli 
 
 ## 🚀 Un file. Un nuovo inizio.
 
-Percorso dell'installer, dalla cartella principale del progetto: `bin/DesktopOrganizer-Setup-1.0.2.exe`.
+Percorso dell'installer, dalla cartella principale del progetto: `bin/DesktopOrganizer-Setup-1.0.3.exe`.
 
-**[⬇️ Scarica l'installer per Windows](https://github.com/jongfat/desktop-file-organizer/raw/refs/heads/main/bin/DesktopOrganizer-Setup-1.0.2.exe)**
+**[⬇️ Scarica l'installer per Windows](https://github.com/jongfat/desktop-file-organizer/raw/refs/heads/main/bin/DesktopOrganizer-Setup-1.0.3.exe)**
 
 1. Fai doppio clic sull'EXE e segui la procedura guidata in cinese tradizionale.
 2. Scegli se creare un collegamento sul desktop e avviare il programma all'accesso.
