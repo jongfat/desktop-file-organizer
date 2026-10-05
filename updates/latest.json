@@ -1,8 +1,8 @@
 {
-  "version": "1.0.6",
+  "version": "1.0.7",
   "publishedAt": "2026-10-05",
-  "notes": "1.0.6｜右鍵選單順序與分組調整\n• 開啟整理資料夾置頂，其後依序為立即整理／暫停自動整理、整理所選資料夾、資料夾監視／規則、查看整理紀錄／版本檢查、結束。\n• 各組之間加入五條分隔線，版本列顯示目前版本與檢查更新。",
-  "downloadUrl": "https://raw.githubusercontent.com/jongfat/desktop-file-organizer/main/bin/DesktopOrganizer-Setup-1.0.6.exe",
-  "sha256": "d4ac514116ff1a2ecf4ab638f1387f76761511f59745900bbf6b2376bd659d88",
-  "size": 2077413
+  "notes": "1.0.7｜來源命名與檔案回復\n• 整理結果依來源命名，例如 Download檔案整理資料夾，舊版整理資料夾自動遷移並保留紀錄關聯。\n• 新增「檔案回復」：選擇來源、確認後依紀錄搬回原處；同名及未記錄內容保留，完成且無剩餘內容才移除整理資料夾。\n• 回復後暫停該來源的自動整理，重啟仍保留；立即整理或整理所選資料夾可重新啟用。",
+  "downloadUrl": "https://raw.githubusercontent.com/jongfat/desktop-file-organizer/main/bin/DesktopOrganizer-Setup-1.0.7.exe",
+  "sha256": "7753bb02532e08cac79a3cc5ec98c727f5aa80cf207a3c7f293e3fa45c4d0deb",
+  "size": 2081370
 }
