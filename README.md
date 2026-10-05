@@ -14,7 +14,7 @@ Desktop Organizer 在 Windows 系統匣待命，把散落的檔案送進對應�
 
 成品位置：`bin/DesktopOrganizer-Setup-1.0.0.exe`。
 
-**[⬇️ 下載 Windows 安裝程式](bin/DesktopOrganizer-Setup-1.0.0.exe?raw=true)**
+**[⬇️ 下載 Windows 安裝程式](https://github.com/jongfat/desktop-file-organizer/raw/refs/heads/main/bin/DesktopOrganizer-Setup-1.0.0.exe)**
 
 1. 雙擊 EXE，跟著繁體中文安裝精靈操作。
 2. 選擇桌面捷徑與登入自動啟動。
