@@ -1,5 +1,14 @@
 # 版本與更新內容 / Version history
 
+## 1.0.5 — 2026-10-05
+
+- 修正規則樹無法拖曳：副檔名可拖到分類更改關聯，拖到其他類別可恢復自動歸類。
+- 分類可拖曳合併關聯或移為子分類，連同子分類與所有副檔名更新；可拖到根節點移回頂層。
+- 新增目標反白、展開及邊緣捲動；固定節點、繼承規則、自身／子孫及無效目標不允許拖曳。
+- 拖曳只改草稿，儲存並確認後才重新歸類；同名分類需明確合併，避免誤覆寫。
+
+Fixed the missing Rules-tree drag-and-drop support. Extension reassignment and category merge/nesting update the draft and preserve all child associations. Highlighting, expansion and edge scrolling help target selection. Invalid destinations are rejected; confirmed saving remains required before file moves.
+
 ## 1.0.4 — 2026-10-05
 
 - 系統匣右鍵新增「規則」：樹狀顯示分類及副檔名，可新增、修改、刪除關聯與分類，包含自動歸類的 ISO 等格式。

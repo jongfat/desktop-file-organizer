@@ -2,7 +2,11 @@
 
 [繁體中文](README.md) · [简体中文](docs/README.zh-CN.md) · [English](docs/README.en.md) · [日本語](docs/README.ja.md) · [한국어](docs/README.ko.md) · [Italiano](docs/README.it.md)
 
-## 新版 1.0.4 · 2026-10-05：你的檔案，由你的規則歸位
+## 1.0.5 · 2026-10-05：拖曳即可調整分類
+
+修正 1.0.4 規則樹無法拖曳的問題。可將副檔名（如 .iso）拖到「程式」直接改變關聯；也可拖曳整個 ISO 分類，選擇「合併關聯」讓檔案直接歸到程式，或「移為子分類」保留為程式／ISO。子分類與副檔名一併更新，拖到整理根節點可移回頂層；副檔名拖到「其他類別」恢復自動歸類。目標會反白，拖到樹的上下邊緣可捲動。
+
+拖曳先修改草稿，按「儲存並重新歸類」並確認才套用。取消或放棄未儲存變更不搬移檔案。繼承共用規則的來源需先勾選專屬規則才能編輯；Today、原資料夾與排除節點固定。禁止拖到自身、子孫或副檔名節點；同名子分類需明確合併。
 
 系統匣圖示按右鍵 → **「規則」**，以樹狀畫面查看分類與副檔名關聯。可新增分類／副檔名、修改分類名稱與關聯、刪除規則。例如選取「其他類別 → ISO → .iso」，按「修改」，將目標改為「程式」，再按「儲存並重新歸類」。也可直接新增 `.iso → 程式`。以下分類表為預設，可依需求調整。
 
@@ -18,7 +22,7 @@
 
 「暫停自動整理」套用全部來源；「立即整理」巡查全部來源。原有「整理所選資料夾」仍可選擇、確認後整理一次，同樣套用 Today 規則，跨日後需再次整理或加入監視。
 
-系統匣「版本 · 檢查更新」顯示版本、日期及更新內容。**1.0.1～1.0.3 可透過 OTA 升級；1.0.0 請手動安裝 1.0.4。** [後續版本發布流程](updates/README.md)
+系統匣「版本 · 檢查更新」顯示版本、日期及更新內容。**1.0.1～1.0.4 可透過 OTA 升級；1.0.0 請手動安裝 1.0.5。** [後續版本發布流程](updates/README.md)
 
 > **桌面留給靈感，雜亂交給我。**
 
@@ -30,9 +34,9 @@ Desktop Organizer 在 Windows 系統匣待命，把散落的檔案送進對應�
 
 ## 🚀 一個安裝檔，重新開場
 
-成品位置：`bin/DesktopOrganizer-Setup-1.0.4.exe`。
+成品位置：`bin/DesktopOrganizer-Setup-1.0.5.exe`。
 
-**[⬇️ 下載 Windows 安裝程式](https://github.com/jongfat/desktop-file-organizer/raw/refs/heads/main/bin/DesktopOrganizer-Setup-1.0.4.exe)**
+**[⬇️ 下載 Windows 安裝程式](https://github.com/jongfat/desktop-file-organizer/raw/refs/heads/main/bin/DesktopOrganizer-Setup-1.0.5.exe)**
 
 1. 雙擊 EXE，跟著繁體中文安裝精靈操作。
 2. 選擇桌面捷徑與登入自動啟動。
