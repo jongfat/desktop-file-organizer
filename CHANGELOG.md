@@ -1,5 +1,15 @@
 # 版本與更新內容 / Version history
 
+## 1.0.3 — 2026-10-05
+
+- 系統匣右鍵新增「資料夾監視」：列出固定監視的桌面與額外資料夾，可新增、修改、移除；清單自動儲存，重啟後沿用。
+- 每 30 秒一併巡查桌面與所有監視資料夾，整理結果各自放在來源內的「桌面資料整理」。單一位置離線或失敗不阻止其他位置，恢復後再試。
+- 新增「當日檔案(Today)」：依本機最後修改日期，當天待整理的檔案先集中放置，不分格式；跨日後下一輪巡查才按原分類歸檔。
+- 仍保留捷徑、同名檔案及原子資料夾內容；受監視資料夾及其上層資料夾不會被桌面巡查搬走。
+- 「暫停自動整理」套用全部監視來源；「立即整理」巡查全部來源。單次「整理所選資料夾」同樣套用 Today 規則，跨日後需再次整理或加入監視。
+
+Added persistent multi-folder monitoring, source-local outputs, per-folder failure isolation and a Today holding folder based on local last-modified dates. The next scan after midnight archives older files by type, with shortcuts, collisions and original subfolders preserved.
+
 ## 1.0.2 — 2026-10-05
 
 - 修正資料夾整理入口：在 Windows 系統匣圖示右鍵選單新增「整理所選資料夾」。
