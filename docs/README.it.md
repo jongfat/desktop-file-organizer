@@ -2,13 +2,19 @@
 
 [繁體中文](../README.md) · [简体中文](README.zh-CN.md) · [English](README.en.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Italiano](README.it.md)
 
-## Novità della versione 1.0.3 · 2026-10-05
+## 1.0.4 · 2026-10-05: I tuoi file, le tue regole
+
+Clic destro sull’icona nell’area di notifica → **“規則” (Regole)**: categorie e associazioni delle estensioni sono mostrate ad albero e si possono aggiungere, modificare o eliminare. Per assegnare ISO ai programmi, seleziona “其他類別 → ISO → .iso”, premi “修改”, scegli “程式” e poi “儲存並重新歸類”. Puoi anche aggiungere direttamente `.iso → 程式`. La tabella seguente mostra le regole predefinite modificabili.
+
+Tutte le origini ereditano le regole condivise. Seleziona il desktop o una cartella monitorata e attiva “此資料夾使用專屬規則” per creare un insieme indipendente a partire da quello condiviso. Le successive modifiche condivise non lo alterano. Disattiva e salva per ripristinare l’eredità. Usa “重新載入” dopo aver modificato l’elenco monitorato. Anche l’organizzazione singola usa le stesse regole per origine.
+
+Il salvataggio chiede conferma delle origini coinvolte, poi riclassifica subito i file già spostati dallo strumento e ancora presenti nelle categorie archiviate. Le cartelle originali in “資料夾” e i file non registrati restano intatti. I file odierni rimangono in Today e usano le nuove regole dopo il cambio di data. Nessuna sovrascrittura; file bloccati e origini offline vengono ritentati. Si rimuovono soltanto le vecchie categorie svuotate. Eliminare una regola non elimina file: i formati senza associazione tornano in “其他類別” per estensione maiuscola. Today e le esclusioni di collegamenti e file temporanei restano fissi. Le impostazioni in `%LOCALAPPDATA%\DesktopOrganizer\sorting-rules.json` sopravvivono a riavvii, aggiornamenti e disinstallazione. Se il file è danneggiato, gli spostamenti si fermano fino alla correzione. [Cronologia](../CHANGELOG.md)
 
 Clic destro sull'icona nel vassoio di Windows → «資料夾監視» (Monitoraggio cartelle) per visualizzare il desktop fisso e aggiungere, modificare o rimuovere altre cartelle. La lista viene conservata dopo il riavvio. Tutte le origini vengono controllate ogni 30 secondi e i risultati rimangono nella rispettiva «桌面資料整理». Rimuovere una voce interrompe il monitoraggio senza eliminare dati. Origini offline o in errore non bloccano le altre e vengono riprovate al ritorno. Le cartelle monitorate e i loro antenati restano al loro posto. Le origini aggiuntive non possono duplicarsi o contenersi.
 
 I file in attesa di organizzazione con data locale di ultima modifica odierna vengono raccolti in «當日檔案(Today)», senza distinguere il formato. Al primo controllo dopo il cambio di data, quelli più vecchi passano alle categorie abituali. I file modificati nuovamente oggi restano in Today. Collegamenti e struttura delle sottocartelle originali vengono conservati; i file già archiviati nelle categorie e quelli dentro le sottocartelle originali non vengono riportati in Today.
 
-Pausa e organizzazione immediata si applicano a tutte le origini. Il comando per una singola cartella usa la stessa regola Today: eseguilo di nuovo il giorno successivo oppure aggiungi la cartella al monitoraggio. **1.0.1/1.0.2 possono aggiornarsi via OTA; gli utenti della 1.0.0 devono installare manualmente la 1.0.3.** [Cronologia versioni](../CHANGELOG.md)
+Pausa e organizzazione immediata si applicano a tutte le origini. Il comando per una singola cartella usa la stessa regola Today: eseguilo di nuovo il giorno successivo oppure aggiungi la cartella al monitoraggio. **1.0.1–1.0.3 possono aggiornarsi via OTA; gli utenti della 1.0.0 devono installare manualmente la 1.0.4.** [Cronologia versioni](../CHANGELOG.md)
 
 > **Spazio alle idee. Un posto per ogni file.**
 
@@ -20,9 +26,9 @@ Desktop Organizer resta nell'area di notifica di Windows, ordina i file singoli 
 
 ## 🚀 Un file. Un nuovo inizio.
 
-Percorso dell'installer, dalla cartella principale del progetto: `bin/DesktopOrganizer-Setup-1.0.3.exe`.
+Percorso dell'installer, dalla cartella principale del progetto: `bin/DesktopOrganizer-Setup-1.0.4.exe`.
 
-**[⬇️ Scarica l'installer per Windows](https://github.com/jongfat/desktop-file-organizer/raw/refs/heads/main/bin/DesktopOrganizer-Setup-1.0.3.exe)**
+**[⬇️ Scarica l'installer per Windows](https://github.com/jongfat/desktop-file-organizer/raw/refs/heads/main/bin/DesktopOrganizer-Setup-1.0.4.exe)**
 
 1. Fai doppio clic sull'EXE e segui la procedura guidata in cinese tradizionale.
 2. Scegli se creare un collegamento sul desktop e avviare il programma all'accesso.

@@ -2,13 +2,19 @@
 
 [繁體中文](../README.md) · [简体中文](README.zh-CN.md) · [English](README.en.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Italiano](README.it.md)
 
-## What's new in 1.0.3 · 2026-10-05
+## 1.0.4 · 2026-10-05: Your files, your rules
+
+Right-click the tray icon → **“規則” (Rules)** to see a tree of categories and extension associations. Add, edit or delete categories and associations. To move ISO into Programs, select “其他類別 → ISO → .iso”, click “修改” (Edit), choose “程式”, then “儲存並重新歸類” (Save and reclassify). You can also add `.iso → 程式` directly. The table below shows editable defaults.
+
+All sources inherit shared rules by default. Select the desktop or a monitored folder and enable “此資料夾使用專屬規則” to create independent rules from the shared set. Later shared edits leave that set unchanged. Uncheck and save to restore inheritance. Use “重新載入” after changing the monitoring list. One-shot folder organization uses the same source-specific rules.
+
+Saving lists affected sources for confirmation, then immediately reclassifies files previously moved by the tool and still present in archived categories. Original folders under “資料夾” stay intact; unrecorded files are untouched. Today's files remain in Today and use the latest rules after midnight. Collisions never overwrite files; locked or offline requests persist for retry. Only emptied former category folders are removed. Deleting rules sends unassociated formats to “其他類別” by uppercase extension, without deleting files. Today and shortcut/temporary exclusions remain fixed. Settings in `%LOCALAPPDATA%\DesktopOrganizer\sorting-rules.json` survive restarts, upgrades and uninstall. Invalid settings stop file moves until repaired. [Version history](../CHANGELOG.md)
 
 Right-click the Windows tray icon → “資料夾監視” (Folder monitoring) to view the fixed desktop entry and add, edit or remove additional folders. The list survives restarts. All sources are scanned every 30 seconds, with results in each source's own “桌面資料整理” folder. Removing an entry stops monitoring and preserves data. Offline or failing locations do not block the others; scanning resumes when they return. Watched folders and their ancestors stay in place. Additional roots cannot duplicate or contain each other.
 
 Files awaiting sorting whose local last-modified date is today go into “當日檔案(Today)” together, regardless of format. The first scan after the date changes archives older files into the usual categories. Files edited again on the current day remain in Today. Shortcuts stay in place and original subfolders move intact into “資料夾”. Previously archived categories and the contents of original subfolders are not pulled back into Today.
 
-Pause applies to all sources; Organize now scans them all. The single-folder selection/confirmation command uses the same Today rule: run it again after midnight or add the folder to monitoring for automatic archiving. **1.0.1/1.0.2 can upgrade via OTA; 1.0.0 users must manually install 1.0.3.** [Version history](../CHANGELOG.md)
+Pause applies to all sources; Organize now scans them all. The single-folder selection/confirmation command uses the same Today rule: run it again after midnight or add the folder to monitoring for automatic archiving. **1.0.1–1.0.3 can upgrade via OTA; 1.0.0 users must manually install 1.0.4.** [Version history](../CHANGELOG.md)
 
 > **Make room for ideas. Give clutter a place to go.**
 
@@ -20,9 +26,9 @@ Desktop Organizer waits in the Windows system tray, sorts loose files into their
 
 ## 🚀 One file. A fresh start.
 
-Installer location, relative to the project root: `bin/DesktopOrganizer-Setup-1.0.3.exe`.
+Installer location, relative to the project root: `bin/DesktopOrganizer-Setup-1.0.4.exe`.
 
-**[⬇️ Download the Windows installer](https://github.com/jongfat/desktop-file-organizer/raw/refs/heads/main/bin/DesktopOrganizer-Setup-1.0.3.exe)**
+**[⬇️ Download the Windows installer](https://github.com/jongfat/desktop-file-organizer/raw/refs/heads/main/bin/DesktopOrganizer-Setup-1.0.4.exe)**
 
 1. Double-click the EXE and follow the Traditional Chinese installation wizard.
 2. Choose whether to create a desktop shortcut and start automatically at sign-in.
