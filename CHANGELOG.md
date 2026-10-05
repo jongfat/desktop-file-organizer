@@ -1,5 +1,15 @@
 # 版本與更新內容 / Version history
 
+## 1.0.4 — 2026-10-05
+
+- 系統匣右鍵新增「規則」：樹狀顯示分類及副檔名，可新增、修改、刪除關聯與分類，包含自動歸類的 ISO 等格式。
+- 預設共用規則，桌面及各監視資料夾可建立獨立專屬規則或恢復繼承；設定重啟、升級及解除安裝後保留。
+- 儲存前確認受影響來源，立即重新歸類整理紀錄中的既有歸檔檔案；Today 仍優先，原子資料夾保持完整，未記錄內容不搬移。
+- 刪除規則不刪檔，相關格式回到其他類別；移空的舊分類只清除空資料夾。同名不覆蓋，鎖定／離線要求保留並重試。
+- 單次整理與背景巡查都套用對應來源規則。設定損壞時停止搬移並提示修復；分類路徑限制於整理根目錄，拒絕連結目的地。
+
+Added a tray Rules editor with a category/extension tree, shared defaults and independent folder rules. Confirmed saves reclassify recorded archived files immediately, with persistent retries for locked or offline sources. Today priority, intact original folders and collision protection remain. Rule deletion never deletes files; invalid configuration stops moves until repaired.
+
 ## 1.0.3 — 2026-10-05
 
 - 系統匣右鍵新增「資料夾監視」：列出固定監視的桌面與額外資料夾，可新增、修改、移除；清單自動儲存，重啟後沿用。
