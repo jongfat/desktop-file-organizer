@@ -2,6 +2,12 @@
 
 [繁體中文](../README.md) · [简体中文](README.zh-CN.md) · [English](README.en.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Italiano](README.it.md)
 
+## Novità della versione 1.0.1 · 2026-10-05
+
+Esplora file ora offre «整理此資料夾» (Organizza questa cartella) facendo clic destro su una cartella o sul suo sfondo vuoto. Abilita il menu contestuale durante l'installazione; su Windows 11 si trova in «Mostra altre opzioni». Organizza una sola volta la cartella selezionata con le stesse categorie, salvando i risultati nella sua cartella «桌面資料整理». I collegamenti restano al loro posto e le sottocartelle originali vengono spostate intere in «資料夾». Per riprovare gli spostamenti non riusciti, esegui nuovamente il comando.
+
+Aggiornamenti OTA: la finestra nel vassoio mostra versione installata, ultima versione, data e novità. Controlla dopo l'avvio e ogni 24 ore. Scegli l'aggiornamento per verificare dimensione e SHA-256, aprire l'installer nella posizione esistente e riavviare al termine. I controlli offline non interrompono l'organizzazione. Se annulli l'installazione, riapri il collegamento. **Gli utenti della 1.0.0 devono prima installare manualmente la 1.0.1.** [Cronologia versioni](../CHANGELOG.md)
+
 > **Spazio alle idee. Un posto per ogni file.**
 
 Report, screenshot, programmi di installazione, archivi. Il desktop merita di essere qualcosa di più di un parcheggio per file.
@@ -12,9 +18,9 @@ Desktop Organizer resta nell'area di notifica di Windows, ordina i file singoli 
 
 ## 🚀 Un file. Un nuovo inizio.
 
-Percorso dell'installer, dalla cartella principale del progetto: `bin/DesktopOrganizer-Setup-1.0.0.exe`.
+Percorso dell'installer, dalla cartella principale del progetto: `bin/DesktopOrganizer-Setup-1.0.1.exe`.
 
-**[⬇️ Scarica l'installer per Windows](https://github.com/jongfat/desktop-file-organizer/raw/refs/heads/main/bin/DesktopOrganizer-Setup-1.0.0.exe)**
+**[⬇️ Scarica l'installer per Windows](https://github.com/jongfat/desktop-file-organizer/raw/refs/heads/main/bin/DesktopOrganizer-Setup-1.0.1.exe)**
 
 1. Fai doppio clic sull'EXE e segui la procedura guidata in cinese tradizionale.
 2. Scegli se creare un collegamento sul desktop e avviare il programma all'accesso.

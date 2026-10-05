@@ -2,6 +2,12 @@
 
 [繁體中文](../README.md) · [简体中文](README.zh-CN.md) · [English](README.en.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Italiano](README.it.md)
 
+## 1.0.1 업데이트 안내 · 2026-10-05
+
+탐색기에서 폴더 또는 폴더 안의 빈 공간을 오른쪽 클릭하면 「整理此資料夾」(이 폴더 정리)를 선택할 수 있습니다. 설치할 때 우클릭 메뉴 옵션을 선택하세요. Windows 11에서는 “더 많은 옵션 표시”에서 찾을 수 있습니다. 선택한 폴더만 같은 분류 규칙으로 한 번 정리하며 결과는 해당 폴더 안의 「桌面資料整理」에 저장됩니다. 바로가기는 그대로 두고 기존 하위 폴더는 내부 구조를 유지해 「資料夾」로 이동합니다. 실패한 항목은 다시 실행해 재시도할 수 있습니다.
+
+OTA 업데이트를 지원합니다. 트레이 업데이트 창에서 현재/최신 버전, 배포 날짜와 변경 내용을 확인할 수 있습니다. 시작 후 및 24시간마다 확인하며, 업데이트를 선택하면 크기와 SHA-256 검증 후 기존 위치에 설치하고 완료 후 다시 실행합니다. 오프라인 상태에서도 정리는 계속됩니다. 설치를 취소했다면 바로가기로 다시 실행하세요. **1.0.0 사용자는 먼저 1.0.1을 수동 설치해야 합니다.** [버전 기록](../CHANGELOG.md)
+
 > **아이디어를 위한 공간. 파일을 위한 제자리.**
 
 보고서, 스크린샷, 설치 파일, 압축 파일. 바탕 화면을 파일이 쌓이는 공간에서 다시 작업을 시작하는 공간으로 바꿔 보세요.
@@ -12,9 +18,9 @@ Desktop Organizer는 Windows 시스템 트레이에서 대기하며 낱개 파�
 
 ## 🚀 설치 파일 하나로 새롭게 시작
 
-프로젝트 루트 기준 설치 파일 위치: `bin/DesktopOrganizer-Setup-1.0.0.exe`.
+프로젝트 루트 기준 설치 파일 위치: `bin/DesktopOrganizer-Setup-1.0.1.exe`.
 
-**[⬇️ Windows 설치 파일 다운로드](https://github.com/jongfat/desktop-file-organizer/raw/refs/heads/main/bin/DesktopOrganizer-Setup-1.0.0.exe)**
+**[⬇️ Windows 설치 파일 다운로드](https://github.com/jongfat/desktop-file-organizer/raw/refs/heads/main/bin/DesktopOrganizer-Setup-1.0.1.exe)**
 
 1. EXE를 두 번 클릭하고 중국어 번체 설치 마법사의 안내를 따릅니다.
 2. 바탕 화면 바로 가기와 로그인 시 자동 시작 여부를 선택합니다.

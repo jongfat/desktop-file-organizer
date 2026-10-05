@@ -2,6 +2,12 @@
 
 [繁體中文](../README.md) · [简体中文](README.zh-CN.md) · [English](README.en.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Italiano](README.it.md)
 
+## What's new in 1.0.1 · 2026-10-05
+
+Explorer now offers “整理此資料夾” (Organize this folder) when you right-click a folder or its empty background. Enable the context menu during installation; on Windows 11, look under “Show more options.” This sorts the selected folder once using the same categories. Results stay inside its “桌面資料整理” folder. Shortcuts remain in place, original subfolders move intact into “資料夾,” and failed moves can be retried by running the command again.
+
+OTA updates: the tray's version/update window shows installed and latest versions, release date and notes. Checks run after startup and every 24 hours. Choose download/update to verify installer size and SHA-256, open the installer at the existing location and restart after installation. Offline checks do not interrupt sorting. If you cancel installation, reopen the shortcut. **Users of 1.0.0 must manually install 1.0.1 once.** [Version history](../CHANGELOG.md)
+
 > **Make room for ideas. Give clutter a place to go.**
 
 Reports, screenshots, installers, archives. Your desktop deserves better than becoming a parking lot for files.
@@ -12,9 +18,9 @@ Desktop Organizer waits in the Windows system tray, sorts loose files into their
 
 ## 🚀 One file. A fresh start.
 
-Installer location, relative to the project root: `bin/DesktopOrganizer-Setup-1.0.0.exe`.
+Installer location, relative to the project root: `bin/DesktopOrganizer-Setup-1.0.1.exe`.
 
-**[⬇️ Download the Windows installer](https://github.com/jongfat/desktop-file-organizer/raw/refs/heads/main/bin/DesktopOrganizer-Setup-1.0.0.exe)**
+**[⬇️ Download the Windows installer](https://github.com/jongfat/desktop-file-organizer/raw/refs/heads/main/bin/DesktopOrganizer-Setup-1.0.1.exe)**
 
 1. Double-click the EXE and follow the Traditional Chinese installation wizard.
 2. Choose whether to create a desktop shortcut and start automatically at sign-in.

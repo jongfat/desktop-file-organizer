@@ -2,6 +2,12 @@
 
 [繁體中文](../README.md) · [简体中文](README.zh-CN.md) · [English](README.en.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Italiano](README.it.md)
 
+## 1.0.1 更新公告 · 2026-10-05
+
+新增文件夹右键菜单「整理此資料夾」，也可在文件夹内空白处右键调用。Windows 11 可在“显示更多选项”中找到；安装时勾选右键菜单选项。仅整理所选文件夹一次，采用相同分类规则，结果存放于该文件夹内的「桌面資料整理」；保留快捷方式，子文件夹完整移动到「資料夾」。失败项目可再次右键重试。
+
+新增 OTA：系统托盘“版本 · 检查更新”显示当前版本、最新版本、发布日期和更新内容。启动后及每 24 小时检查；点击下载更新后验证大小与 SHA-256，再启动安装向导，沿用安装位置并在完成后重新运行。断网不影响整理。取消向导后请重新打开快捷方式。**1.0.0 需要先手动安装 1.0.1。** [版本记录](../CHANGELOG.md)
+
 > **桌面留给灵感，杂乱交给我。**
 
 报表、截图、安装文件、压缩包……你的桌面，值得比“文件停车场”更好的待遇。
@@ -12,9 +18,9 @@ Desktop Organizer 在 Windows 系统托盘待命，将散落的文件送入对�
 
 ## 🚀 一个安装文件，重新开场
 
-安装文件位于项目根目录下的 `bin/DesktopOrganizer-Setup-1.0.0.exe`。
+安装文件位于项目根目录下的 `bin/DesktopOrganizer-Setup-1.0.1.exe`。
 
-**[⬇️ 下载 Windows 安装程序](https://github.com/jongfat/desktop-file-organizer/raw/refs/heads/main/bin/DesktopOrganizer-Setup-1.0.0.exe)**
+**[⬇️ 下载 Windows 安装程序](https://github.com/jongfat/desktop-file-organizer/raw/refs/heads/main/bin/DesktopOrganizer-Setup-1.0.1.exe)**
 
 1. 双击 EXE，按繁体中文安装向导操作。
 2. 选择桌面快捷方式和登录自动启动。
