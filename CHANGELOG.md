@@ -1,5 +1,15 @@
 # 版本與更新內容 / Version history
 
+## 1.0.2 — 2026-10-05
+
+- 修正資料夾整理入口：在 Windows 系統匣圖示右鍵選單新增「整理所選資料夾」。
+- 開啟資料夾選擇視窗，選定後顯示來源、整理結果位置及分類說明；確認後才搬移檔案。
+- 取消選擇或取消確認時不建立整理資料夾，也不搬移檔案。
+- 使用相同分類規則；結果保存在所選資料夾內的「桌面資料整理」，保留捷徑及子資料夾內容。
+- 移除 1.0.1 的檔案總管右鍵整合，升級時清除其選單；保留 OTA 功能。
+
+Corrected the entry point to the Windows tray icon's menu: “整理所選資料夾” (Organize selected folder). Choose a folder, review the source and destination, then confirm to sort. Cancelling either step leaves the folder unchanged. Removed the Explorer context menu introduced in 1.0.1; OTA updates remain available.
+
 ## 1.0.1 — 2026-10-05
 
 - 新增檔案總管資料夾右鍵與空白處選單「整理此資料夾」（Windows 11 可於「顯示其他選項」找到）。
