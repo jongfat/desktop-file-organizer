@@ -2,7 +2,11 @@
 
 [繁體中文](../README.md) · [简体中文](README.zh-CN.md) · [English](README.en.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Italiano](README.it.md)
 
-## 1.0.4 · 2026-10-05: I tuoi file, le tue regole
+## 1.0.5 · 2026-10-05: Trascina per modificare le categorie
+
+Corregge il trascinamento mancante nell’albero di 1.0.4. Trascina un’estensione come .iso su 程式 per cambiarne l’associazione. Per una categoria scegli 合併關聯 per unire le associazioni alla destinazione, oppure 移為子分類 per mantenerne nome e struttura come sottocategoria. La radice riporta una categoria al livello superiore; trascinare un’estensione su 其他類別 ripristina la classificazione automatica. La destinazione viene evidenziata e i bordi dell’albero consentono lo scorrimento.
+
+Il trascinamento modifica soltanto la bozza. Premi 儲存並重新歸類 e conferma per salvare e riclassificare. Le regole ereditate richiedono l’attivazione delle regole indipendenti prima della modifica. Sono esclusi nodi fissi, la categoria stessa, discendenti ed estensioni come destinazioni. Sottocategorie omonime richiedono un’unione esplicita.
 
 Clic destro sull’icona nell’area di notifica → **“規則” (Regole)**: categorie e associazioni delle estensioni sono mostrate ad albero e si possono aggiungere, modificare o eliminare. Per assegnare ISO ai programmi, seleziona “其他類別 → ISO → .iso”, premi “修改”, scegli “程式” e poi “儲存並重新歸類”. Puoi anche aggiungere direttamente `.iso → 程式`. La tabella seguente mostra le regole predefinite modificabili.
 
@@ -14,7 +18,7 @@ Clic destro sull'icona nel vassoio di Windows → «資料夾監視» (Monitorag
 
 I file in attesa di organizzazione con data locale di ultima modifica odierna vengono raccolti in «當日檔案(Today)», senza distinguere il formato. Al primo controllo dopo il cambio di data, quelli più vecchi passano alle categorie abituali. I file modificati nuovamente oggi restano in Today. Collegamenti e struttura delle sottocartelle originali vengono conservati; i file già archiviati nelle categorie e quelli dentro le sottocartelle originali non vengono riportati in Today.
 
-Pausa e organizzazione immediata si applicano a tutte le origini. Il comando per una singola cartella usa la stessa regola Today: eseguilo di nuovo il giorno successivo oppure aggiungi la cartella al monitoraggio. **1.0.1–1.0.3 possono aggiornarsi via OTA; gli utenti della 1.0.0 devono installare manualmente la 1.0.4.** [Cronologia versioni](../CHANGELOG.md)
+Pausa e organizzazione immediata si applicano a tutte le origini. Il comando per una singola cartella usa la stessa regola Today: eseguilo di nuovo il giorno successivo oppure aggiungi la cartella al monitoraggio. **1.0.1–1.0.4 possono aggiornarsi via OTA; gli utenti della 1.0.0 devono installare manualmente la 1.0.5.** [Cronologia versioni](../CHANGELOG.md)
 
 > **Spazio alle idee. Un posto per ogni file.**
 
@@ -26,9 +30,9 @@ Desktop Organizer resta nell'area di notifica di Windows, ordina i file singoli 
 
 ## 🚀 Un file. Un nuovo inizio.
 
-Percorso dell'installer, dalla cartella principale del progetto: `bin/DesktopOrganizer-Setup-1.0.4.exe`.
+Percorso dell'installer, dalla cartella principale del progetto: `bin/DesktopOrganizer-Setup-1.0.5.exe`.
 
-**[⬇️ Scarica l'installer per Windows](https://github.com/jongfat/desktop-file-organizer/raw/refs/heads/main/bin/DesktopOrganizer-Setup-1.0.4.exe)**
+**[⬇️ Scarica l'installer per Windows](https://github.com/jongfat/desktop-file-organizer/raw/refs/heads/main/bin/DesktopOrganizer-Setup-1.0.5.exe)**
 
 1. Fai doppio clic sull'EXE e segui la procedura guidata in cinese tradizionale.
 2. Scegli se creare un collegamento sul desktop e avviare il programma all'accesso.
