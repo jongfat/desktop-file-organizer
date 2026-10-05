@@ -2,6 +2,28 @@
 
 [繁體中文](../README.md) · [简体中文](README.zh-CN.md) · [English](README.en.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Italiano](README.it.md)
 
+## 1.0.6 · 2026-10-05: Menu più ordinato
+
+Apri la cartella organizzata compare per primo. I comandi seguono l’ordine riportato sotto, raggruppati con cinque separatori. La voce della versione mostra dinamicamente quella installata.
+
+```text
+開啟整理資料夾
+────────────
+立即整理
+暫停自動整理
+────────────
+整理所選資料夾
+────────────
+資料夾監視
+規則
+────────────
+查看整理紀錄
+版本 1.0.6·檢查更新
+────────────
+結束
+```
+
+
 ## 1.0.5 · 2026-10-05: Trascina per modificare le categorie
 
 Corregge il trascinamento mancante nell’albero di 1.0.4. Trascina un’estensione come .iso su 程式 per cambiarne l’associazione. Per una categoria scegli 合併關聯 per unire le associazioni alla destinazione, oppure 移為子分類 per mantenerne nome e struttura come sottocategoria. La radice riporta una categoria al livello superiore; trascinare un’estensione su 其他類別 ripristina la classificazione automatica. La destinazione viene evidenziata e i bordi dell’albero consentono lo scorrimento.
@@ -18,7 +40,7 @@ Clic destro sull'icona nel vassoio di Windows → «資料夾監視» (Monitorag
 
 I file in attesa di organizzazione con data locale di ultima modifica odierna vengono raccolti in «當日檔案(Today)», senza distinguere il formato. Al primo controllo dopo il cambio di data, quelli più vecchi passano alle categorie abituali. I file modificati nuovamente oggi restano in Today. Collegamenti e struttura delle sottocartelle originali vengono conservati; i file già archiviati nelle categorie e quelli dentro le sottocartelle originali non vengono riportati in Today.
 
-Pausa e organizzazione immediata si applicano a tutte le origini. Il comando per una singola cartella usa la stessa regola Today: eseguilo di nuovo il giorno successivo oppure aggiungi la cartella al monitoraggio. **1.0.1–1.0.4 possono aggiornarsi via OTA; gli utenti della 1.0.0 devono installare manualmente la 1.0.5.** [Cronologia versioni](../CHANGELOG.md)
+Pausa e organizzazione immediata si applicano a tutte le origini. Il comando per una singola cartella usa la stessa regola Today: eseguilo di nuovo il giorno successivo oppure aggiungi la cartella al monitoraggio. **1.0.1–1.0.5 possono aggiornarsi via OTA; gli utenti della 1.0.0 devono installare manualmente la 1.0.5.** [Cronologia versioni](../CHANGELOG.md)
 
 > **Spazio alle idee. Un posto per ogni file.**
 
@@ -30,9 +52,9 @@ Desktop Organizer resta nell'area di notifica di Windows, ordina i file singoli 
 
 ## 🚀 Un file. Un nuovo inizio.
 
-Percorso dell'installer, dalla cartella principale del progetto: `bin/DesktopOrganizer-Setup-1.0.5.exe`.
+Percorso dell'installer, dalla cartella principale del progetto: `bin/DesktopOrganizer-Setup-1.0.6.exe`.
 
-**[⬇️ Scarica l'installer per Windows](https://github.com/jongfat/desktop-file-organizer/raw/refs/heads/main/bin/DesktopOrganizer-Setup-1.0.5.exe)**
+**[⬇️ Scarica l'installer per Windows](https://github.com/jongfat/desktop-file-organizer/raw/refs/heads/main/bin/DesktopOrganizer-Setup-1.0.6.exe)**
 
 1. Fai doppio clic sull'EXE e segui la procedura guidata in cinese tradizionale.
 2. Scegli se creare un collegamento sul desktop e avviare il programma all'accesso.
