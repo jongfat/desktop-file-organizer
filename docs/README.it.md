@@ -14,7 +14,7 @@ Desktop Organizer resta nell'area di notifica di Windows, ordina i file singoli 
 
 Percorso dell'installer, dalla cartella principale del progetto: `bin/DesktopOrganizer-Setup-1.0.0.exe`.
 
-**[⬇️ Scarica l'installer per Windows](../bin/DesktopOrganizer-Setup-1.0.0.exe?raw=true)**
+**[⬇️ Scarica l'installer per Windows](https://github.com/jongfat/desktop-file-organizer/raw/refs/heads/main/bin/DesktopOrganizer-Setup-1.0.0.exe)**
 
 1. Fai doppio clic sull'EXE e segui la procedura guidata in cinese tradizionale.
 2. Scegli se creare un collegamento sul desktop e avviare il programma all'accesso.

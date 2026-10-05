@@ -14,7 +14,7 @@ Desktop Organizer waits in the Windows system tray, sorts loose files into their
 
 Installer location, relative to the project root: `bin/DesktopOrganizer-Setup-1.0.0.exe`.
 
-**[⬇️ Download the Windows installer](../bin/DesktopOrganizer-Setup-1.0.0.exe?raw=true)**
+**[⬇️ Download the Windows installer](https://github.com/jongfat/desktop-file-organizer/raw/refs/heads/main/bin/DesktopOrganizer-Setup-1.0.0.exe)**
 
 1. Double-click the EXE and follow the Traditional Chinese installation wizard.
 2. Choose whether to create a desktop shortcut and start automatically at sign-in.

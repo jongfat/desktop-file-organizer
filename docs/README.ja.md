@@ -14,7 +14,7 @@ Desktop Organizer は Windows の通知領域に常駐し、単独のファイ�
 
 プロジェクトのルートから見たインストーラーの場所：`bin/DesktopOrganizer-Setup-1.0.0.exe`。
 
-**[⬇️ Windows インストーラーをダウンロード](../bin/DesktopOrganizer-Setup-1.0.0.exe?raw=true)**
+**[⬇️ Windows インストーラーをダウンロード](https://github.com/jongfat/desktop-file-organizer/raw/refs/heads/main/bin/DesktopOrganizer-Setup-1.0.0.exe)**
 
 1. EXE をダブルクリックし、繁体字中国語のセットアップに従います。
 2. デスクトップのショートカット作成と、サインイン時の自動起動を選びます。

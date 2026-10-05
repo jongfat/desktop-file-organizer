@@ -14,7 +14,7 @@ Desktop Organizer는 Windows 시스템 트레이에서 대기하며 낱개 파�
 
 프로젝트 루트 기준 설치 파일 위치: `bin/DesktopOrganizer-Setup-1.0.0.exe`.
 
-**[⬇️ Windows 설치 파일 다운로드](../bin/DesktopOrganizer-Setup-1.0.0.exe?raw=true)**
+**[⬇️ Windows 설치 파일 다운로드](https://github.com/jongfat/desktop-file-organizer/raw/refs/heads/main/bin/DesktopOrganizer-Setup-1.0.0.exe)**
 
 1. EXE를 두 번 클릭하고 중국어 번체 설치 마법사의 안내를 따릅니다.
 2. 바탕 화면 바로 가기와 로그인 시 자동 시작 여부를 선택합니다.

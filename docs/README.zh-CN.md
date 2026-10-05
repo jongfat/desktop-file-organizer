@@ -14,7 +14,7 @@ Desktop Organizer 在 Windows 系统托盘待命，将散落的文件送入对�
 
 安装文件位于项目根目录下的 `bin/DesktopOrganizer-Setup-1.0.0.exe`。
 
-**[⬇️ 下载 Windows 安装程序](../bin/DesktopOrganizer-Setup-1.0.0.exe?raw=true)**
+**[⬇️ 下载 Windows 安装程序](https://github.com/jongfat/desktop-file-organizer/raw/refs/heads/main/bin/DesktopOrganizer-Setup-1.0.0.exe)**
 
 1. 双击 EXE，按繁体中文安装向导操作。
 2. 选择桌面快捷方式和登录自动启动。
