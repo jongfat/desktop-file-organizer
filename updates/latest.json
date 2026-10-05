@@ -1,8 +1,8 @@
 {
-  "version": "1.0.5",
+  "version": "1.0.6",
   "publishedAt": "2026-10-05",
-  "notes": "1.0.5｜修正規則樹拖曳操作\n• 副檔名可拖到其他分類，拖到其他類別可恢復自動歸類。\n• 分類支援拖曳合併關聯或移為子分類，子分類與副檔名一併更新。\n• 新增目標反白、展開、邊緣捲動，拒絕自身、子孫與固定用途節點。\n• 拖曳只修改草稿，儲存並確認後才重新歸類檔案；共用及專屬規則沿用。",
-  "downloadUrl": "https://raw.githubusercontent.com/jongfat/desktop-file-organizer/main/bin/DesktopOrganizer-Setup-1.0.5.exe",
-  "sha256": "3464d988813c6d632b1600cd131dc8fe9fe69d1155dec932e84d679ba7899a67",
-  "size": 2077128
+  "notes": "1.0.6｜右鍵選單順序與分組調整\n• 開啟整理資料夾置頂，其後依序為立即整理／暫停自動整理、整理所選資料夾、資料夾監視／規則、查看整理紀錄／版本檢查、結束。\n• 各組之間加入五條分隔線，版本列顯示目前版本與檢查更新。",
+  "downloadUrl": "https://raw.githubusercontent.com/jongfat/desktop-file-organizer/main/bin/DesktopOrganizer-Setup-1.0.6.exe",
+  "sha256": "d4ac514116ff1a2ecf4ab638f1387f76761511f59745900bbf6b2376bd659d88",
+  "size": 2077413
 }
