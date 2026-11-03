@@ -1,8 +1,8 @@
 {
-  "version": "1.0.10",
+  "version": "1.0.11",
   "publishedAt": "2026-11-03",
-  "notes": "1.0.10｜重複檔名檢查與預覽\n• 右鍵新增「重複檔名檢查」，選擇資料夾並將 aa.txt、aa(1).txt 等編號副本分組。\n• 文字與常見圖片可直接預覽；PDF、Office 文件可用預設程式開啟比較。\n• 勾選要保留的檔案，確認後將其餘檔案送至資源回收筒；至少保留一份，內容變更或回收失敗時停止並提示。\n• 檢查期間暫停自動整理，關閉後恢復原狀；包含 1.0.9 自訂巡查時間功能。",
-  "downloadUrl": "https://raw.githubusercontent.com/jongfat/desktop-file-organizer/main/bin/DesktopOrganizer-Setup-1.0.10.exe",
-  "sha256": "26bf05d000f8746d1c5f96c9cf5136b74b6138462a72417fc34c308688cf81cc",
-  "size": 2091987
+  "notes": "1.0.11｜Today 資料夾與使用中延後處理\n• 當天修改的檔案、資料夾與壓縮檔先進入「當日檔案(Today)」；跨日後原資料夾整包歸檔。\n• 首次升級巡查修正有成功紀錄、被舊版誤歸檔的當日資料夾，保留內容與回復關聯。\n• 搬移前檢查項目及資料夾內的檔案；使用中、仍在更新或無法確認安全的項目保留原處，下一輪重試。\n• 巡查與監視清單顯示延後數量，紀錄以 DEFER 標示；手動整理同樣保護。部分讀取後即關閉控制代碼的編輯器可能無法偵測。",
+  "downloadUrl": "https://raw.githubusercontent.com/jongfat/desktop-file-organizer/main/bin/DesktopOrganizer-Setup-1.0.11.exe",
+  "sha256": "9c88ed06ad908cefecccd95ea8c78fbdd45ca09bb93fadfe8b25be04e861a620",
+  "size": 2094159
 }
