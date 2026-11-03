@@ -1,5 +1,16 @@
 ﻿# 版本與更新內容 / Version history
 
+## 1.0.11 — 2026-11-03
+
+- 修正資料夾先被直接分類的判定順序；Today 現在適用當天修改的檔案、完整資料夾與壓縮檔，跨日再將原資料夾整包歸檔。
+- 首次成功升級巡查修正有 DONE 紀錄的當日誤歸檔資料夾，使用中則保留要求重試；未記錄內容不動，回復追溯原位置。
+- 搬移前以 Windows 共用限制及控制代碼探測，包含資料夾所有後代；任一使用中、最近更新或無法確認可安全搬移時整包延後，其他來源繼續。
+- 檔案探測保持至改名完成；Windows 目錄改名前釋放子項目控制代碼，目錄仍使用中時延後重試。手動整理同樣適用。
+- 新增延後數量與 DEFER 紀錄；規則重新歸類要求遇到使用中時繼續保留。
+- 限制：讀取後關閉控制代碼、只在記憶體編輯的程式，不一定能偵測其仍開啟的視窗。
+
+Today now includes folders, preserving their structure through rollover. File and folder move probes defer busy or unverifiable items and retain pending reclassification requests. Historical recorded folders wrongly archived today are corrected once. Deferred counts and DEFER history distinguish retries from errors. Editors which release file handles after reading cannot always be detected.
+
 ## 1.0.10 — 2026-10-30
 
 - 系統匣新增「重複檔名檢查」視窗。選擇範圍並可包含子資料夾；同基本名稱與編號副本分組，顯示完整路徑、大小、修改時間，候選不表示內容相同。
