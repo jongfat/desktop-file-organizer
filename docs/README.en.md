@@ -2,6 +2,14 @@
 
 [繁體中文](../README.md) · [简体中文](README.zh-CN.md) · [English](README.en.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Italiano](README.it.md)
 
+## 1.0.11 · 2026-11-03
+
+Fixes Today handling for folders: based on the local last-modified date, **today’s files, folders and archives all enter「當日檔案(Today)」first**. Folders retain their complete structure and move as a whole into「資料夾」on a later scan after midnight. The first upgrade scan also corrects recorded folders wrongly archived by older versions when their modification date is today. Unrecorded contents are left alone.
+
+Before moving, checks Windows sharing and handle availability, including files inside folders. Open, locked, recently updated or inaccessible items are deferred intact until the next scan while other items continue. Manual sorting uses the same protection. File probes remain open through a file rename; descendant handles are released immediately before a Windows directory rename, and a busy rename is deferred. Monitoring reports deferred counts and history uses `DEFER` separately from `ERROR`.
+
+**Editors that read a file and then close its handle may still show an editing window; this cannot always be detected.** Existing shortcut, hidden, system and reparse-point exclusions remain in effect.
+
 ## 1.0.10 · 2026-10-30
 
 The tray menu now includes **「重複檔名檢查」 (Review duplicate names)**. Choose a folder, optionally including subfolders. Names such as `aa.txt`, `aa(1).txt` and `aa (2).txt` are grouped. Matching names in different subfolders are candidates too; **contents may differ**, so check full paths.
@@ -86,7 +94,7 @@ Right-click the Windows tray icon → “資料夾監視” (Folder monitoring) 
 
 Files awaiting sorting whose local last-modified date is today go into “當日檔案(Today)” together, regardless of format. The first scan after the date changes archives older files into the usual categories. Files edited again on the current day remain in Today. Shortcuts stay in place and original subfolders move intact into “資料夾”. Previously archived categories and the contents of original subfolders are not pulled back into Today.
 
-Pause applies to all sources; Organize now scans them all. The single-folder selection/confirmation command uses the same Today rule: run it again after midnight or add the folder to monitoring for automatic archiving. **1.0.1–1.0.9 can upgrade via OTA; 1.0.0 users must manually install 1.0.10.** [Version history](../CHANGELOG.md)
+Pause applies to all sources; Organize now scans them all. The single-folder selection/confirmation command uses the same Today rule: run it again after midnight or add the folder to monitoring for automatic archiving. **1.0.1–1.0.10 can upgrade via OTA; 1.0.0 users must manually install 1.0.11.** [Version history](../CHANGELOG.md)
 
 > **Make room for ideas. Give clutter a place to go.**
 
@@ -98,9 +106,9 @@ Desktop Organizer waits in the Windows system tray, sorts loose files into their
 
 ## 🚀 One file. A fresh start.
 
-Installer location, relative to the project root: `bin/DesktopOrganizer-Setup-1.0.10.exe`.
+Installer location, relative to the project root: `bin/DesktopOrganizer-Setup-1.0.11.exe`.
 
-**[⬇️ Download the Windows installer](https://github.com/jongfat/desktop-file-organizer/raw/refs/heads/main/bin/DesktopOrganizer-Setup-1.0.10.exe)**
+**[⬇️ Download the Windows installer](https://github.com/jongfat/desktop-file-organizer/raw/refs/heads/main/bin/DesktopOrganizer-Setup-1.0.11.exe)**
 
 1. Double-click the EXE and follow the Traditional Chinese installation wizard.
 2. Choose whether to create a desktop shortcut and start automatically at sign-in.
