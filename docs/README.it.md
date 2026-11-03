@@ -1,6 +1,10 @@
-﻿# ⚡ Desktop Organizer
+# ⚡ Desktop Organizer
 
 [繁體中文](../README.md) · [简体中文](README.zh-CN.md) · [English](README.en.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Italiano](README.it.md)
+
+## 1.0.12 · 2026-11-03
+
+Il menu dell’icona nell’area di notifica include **「使用說明」 (Guida), subito sopra 「結束」 (Esci)**. Sono disponibili 13 argomenti, ciascuno con tre brevi passaggi e un suggerimento. **11 diagrammi e miniature dell’interfaccia si ingrandiscono con un clic.** Tutto funziona offline con dati di esempio. Anche il collegamento Guida nel menu Start apre questa finestra.
 
 ## 1.0.11 · 2026-11-03
 
@@ -92,7 +96,7 @@ Clic destro sull'icona nel vassoio di Windows → «資料夾監視» (Monitorag
 
 I file in attesa di organizzazione con data locale di ultima modifica odierna vengono raccolti in «當日檔案(Today)», senza distinguere il formato. Al primo controllo dopo il cambio di data, quelli più vecchi passano alle categorie abituali. I file modificati nuovamente oggi restano in Today. Collegamenti e struttura delle sottocartelle originali vengono conservati; i file già archiviati nelle categorie e quelli dentro le sottocartelle originali non vengono riportati in Today.
 
-Pausa e organizzazione immediata si applicano a tutte le origini. Il comando per una singola cartella usa la stessa regola Today: eseguilo di nuovo il giorno successivo oppure aggiungi la cartella al monitoraggio. **1.0.1–1.0.10 possono aggiornarsi via OTA; gli utenti della 1.0.0 devono installare manualmente la 1.0.7.** [Cronologia versioni](../CHANGELOG.md)
+Pausa e organizzazione immediata si applicano a tutte le origini. Il comando per una singola cartella usa la stessa regola Today: eseguilo di nuovo il giorno successivo oppure aggiungi la cartella al monitoraggio. **1.0.1–1.0.11 possono aggiornarsi via OTA; gli utenti della 1.0.0 devono installare manualmente la 1.0.12.** [Cronologia versioni](../CHANGELOG.md)
 
 > **Spazio alle idee. Un posto per ogni file.**
 
@@ -104,9 +108,9 @@ Desktop Organizer resta nell'area di notifica di Windows, ordina i file singoli 
 
 ## 🚀 Un file. Un nuovo inizio.
 
-Percorso dell'installer, dalla cartella principale del progetto: `bin/DesktopOrganizer-Setup-1.0.11.exe`.
+Percorso dell'installer, dalla cartella principale del progetto: `bin/DesktopOrganizer-Setup-1.0.12.exe`.
 
-**[⬇️ Scarica l'installer per Windows](https://github.com/jongfat/desktop-file-organizer/raw/refs/heads/main/bin/DesktopOrganizer-Setup-1.0.11.exe)**
+**[⬇️ Scarica l'installer per Windows](https://github.com/jongfat/desktop-file-organizer/raw/refs/heads/main/bin/DesktopOrganizer-Setup-1.0.12.exe)**
 
 1. Fai doppio clic sull'EXE e segui la procedura guidata in cinese tradizionale.
 2. Scegli se creare un collegamento sul desktop e avviare il programma all'accesso.

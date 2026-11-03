@@ -1,6 +1,10 @@
-﻿# ⚡ Desktop Organizer｜바탕 화면 정리 도구
+# ⚡ Desktop Organizer｜바탕 화면 정리 도구
 
 [繁體中文](../README.md) · [简体中文](README.zh-CN.md) · [English](README.en.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Italiano](README.it.md)
+
+## 1.0.12 · 2026-11-03
+
+트레이 우클릭 메뉴의 **「結束」 바로 위에 「使用說明」(도움말)** 을 추가했습니다. 13개 기능을 각각 세 단계와 팁으로 안내합니다. **11개의 설명 그림과 인터페이스 축소 이미지를 클릭하여 확대할 수 있습니다.** 예제 데이터를 사용하며 모든 안내는 오프라인으로 제공됩니다. 시작 메뉴의 도움말도 같은 창을 엽니다.
 
 ## 1.0.11 · 2026-11-03
 
@@ -92,7 +96,7 @@ Windows 트레이 아이콘을 오른쪽 클릭 →「資料夾監視」(폴더 
 
 정리 대기 파일의 로컬 최종 수정 날짜가 오늘이면 형식 구분 없이 「當日檔案(Today)」에 모읍니다. 날짜가 바뀐 뒤 다음 확인에서 이전 날짜 파일을 기존 유형별 폴더로 이동합니다. 오늘 다시 수정한 파일은 Today에 유지됩니다. 바로가기와 기존 하위 폴더 구조는 유지하며, 이미 분류된 폴더와 기존 하위 폴더 안의 파일을 Today로 다시 가져오지 않습니다.
 
-일시 중지와 즉시 정리는 모든 위치에 적용됩니다. 단일 폴더 정리도 같은 Today 규칙을 사용하므로 날짜 변경 후 다시 실행하거나 감시 목록에 추가하세요. **1.0.1–1.0.10는 OTA로 업데이트할 수 있으며 1.0.0은 1.0.11을 수동 설치해야 합니다.** [버전 기록](../CHANGELOG.md)
+일시 중지와 즉시 정리는 모든 위치에 적용됩니다. 단일 폴더 정리도 같은 Today 규칙을 사용하므로 날짜 변경 후 다시 실행하거나 감시 목록에 추가하세요. **1.0.1–1.0.11는 OTA로 업데이트할 수 있으며 1.0.0은 1.0.12을 수동 설치해야 합니다.** [버전 기록](../CHANGELOG.md)
 
 > **아이디어를 위한 공간. 파일을 위한 제자리.**
 
@@ -104,9 +108,9 @@ Desktop Organizer는 Windows 시스템 트레이에서 대기하며 낱개 파�
 
 ## 🚀 설치 파일 하나로 새롭게 시작
 
-프로젝트 루트 기준 설치 파일 위치: `bin/DesktopOrganizer-Setup-1.0.11.exe`.
+프로젝트 루트 기준 설치 파일 위치: `bin/DesktopOrganizer-Setup-1.0.12.exe`.
 
-**[⬇️ Windows 설치 파일 다운로드](https://github.com/jongfat/desktop-file-organizer/raw/refs/heads/main/bin/DesktopOrganizer-Setup-1.0.11.exe)**
+**[⬇️ Windows 설치 파일 다운로드](https://github.com/jongfat/desktop-file-organizer/raw/refs/heads/main/bin/DesktopOrganizer-Setup-1.0.12.exe)**
 
 1. EXE를 두 번 클릭하고 중국어 번체 설치 마법사의 안내를 따릅니다.
 2. 바탕 화면 바로 가기와 로그인 시 자동 시작 여부를 선택합니다.

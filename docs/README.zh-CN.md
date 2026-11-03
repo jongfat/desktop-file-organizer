@@ -1,6 +1,10 @@
-﻿# ⚡ Desktop Organizer｜桌面整理工具
+# ⚡ Desktop Organizer｜桌面整理工具
 
 [繁體中文](../README.md) · [简体中文](README.zh-CN.md) · [English](README.en.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Italiano](README.it.md)
+
+## 1.0.12 · 2026-11-03
+
+托盘右键菜单在 **「結束」上方新增「使用說明」**。左侧可切换 13 项功能，每项提供三个操作步骤和提示；内置 **11 张示意图及软件界面缩略图，点击可放大**。图文随安装包提供，可离线阅读，图片使用演示数据。开始菜单的帮助快捷方式也会打开此窗口。
 
 ## 1.0.11 · 2026-11-03
 
@@ -92,7 +96,7 @@
 
 当日待整理文件按本机最后修改日期，先集中到「當日檔案(Today)」，不分格式；跨日后下一轮再按原分类归档。Today 中当天再次修改的文件继续保留。快捷方式保留，原子文件夹完整移至「資料夾」；已归档分类与原子文件夹内部文件不会重新收回 Today。
 
-暂停适用于全部来源，立即整理一起巡查全部位置。单次「整理所選資料夾」也采用 Today 规则；跨日后需再次整理或加入监视。**1.0.1～1.0.10 可使用 OTA；1.0.0 请手动安装 1.0.11。** [版本记录](../CHANGELOG.md)
+暂停适用于全部来源，立即整理一起巡查全部位置。单次「整理所選資料夾」也采用 Today 规则；跨日后需再次整理或加入监视。**1.0.1～1.0.11 可使用 OTA；1.0.0 请手动安装 1.0.12。** [版本记录](../CHANGELOG.md)
 
 > **桌面留给灵感，杂乱交给我。**
 
@@ -104,9 +108,9 @@ Desktop Organizer 在 Windows 系统托盘待命，将散落的文件送入对�
 
 ## 🚀 一个安装文件，重新开场
 
-安装文件位于项目根目录下的 `bin/DesktopOrganizer-Setup-1.0.11.exe`。
+安装文件位于项目根目录下的 `bin/DesktopOrganizer-Setup-1.0.12.exe`。
 
-**[⬇️ 下载 Windows 安装程序](https://github.com/jongfat/desktop-file-organizer/raw/refs/heads/main/bin/DesktopOrganizer-Setup-1.0.11.exe)**
+**[⬇️ 下载 Windows 安装程序](https://github.com/jongfat/desktop-file-organizer/raw/refs/heads/main/bin/DesktopOrganizer-Setup-1.0.12.exe)**
 
 1. 双击 EXE，按繁体中文安装向导操作。
 2. 选择桌面快捷方式和登录自动启动。

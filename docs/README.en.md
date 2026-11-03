@@ -1,6 +1,10 @@
-﻿# ⚡ Desktop Organizer
+# ⚡ Desktop Organizer
 
 [繁體中文](../README.md) · [简体中文](README.zh-CN.md) · [English](README.en.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Italiano](README.it.md)
+
+## 1.0.12 · 2026-11-03
+
+The tray menu now includes **「使用說明」 (Help), immediately above 「結束」 (Exit)**. Browse 13 topics with three short steps and a tip each. **11 bundled diagrams and interface thumbnails can be clicked to enlarge.** All content works offline and uses sample data. The Start menu Help shortcut opens the same illustrated guide.
 
 ## 1.0.11 · 2026-11-03
 
@@ -94,7 +98,7 @@ Right-click the Windows tray icon → “資料夾監視” (Folder monitoring) 
 
 Files awaiting sorting whose local last-modified date is today go into “當日檔案(Today)” together, regardless of format. The first scan after the date changes archives older files into the usual categories. Files edited again on the current day remain in Today. Shortcuts stay in place and original subfolders move intact into “資料夾”. Previously archived categories and the contents of original subfolders are not pulled back into Today.
 
-Pause applies to all sources; Organize now scans them all. The single-folder selection/confirmation command uses the same Today rule: run it again after midnight or add the folder to monitoring for automatic archiving. **1.0.1–1.0.10 can upgrade via OTA; 1.0.0 users must manually install 1.0.11.** [Version history](../CHANGELOG.md)
+Pause applies to all sources; Organize now scans them all. The single-folder selection/confirmation command uses the same Today rule: run it again after midnight or add the folder to monitoring for automatic archiving. **1.0.1–1.0.11 can upgrade via OTA; 1.0.0 users must manually install 1.0.12.** [Version history](../CHANGELOG.md)
 
 > **Make room for ideas. Give clutter a place to go.**
 
@@ -106,9 +110,9 @@ Desktop Organizer waits in the Windows system tray, sorts loose files into their
 
 ## 🚀 One file. A fresh start.
 
-Installer location, relative to the project root: `bin/DesktopOrganizer-Setup-1.0.11.exe`.
+Installer location, relative to the project root: `bin/DesktopOrganizer-Setup-1.0.12.exe`.
 
-**[⬇️ Download the Windows installer](https://github.com/jongfat/desktop-file-organizer/raw/refs/heads/main/bin/DesktopOrganizer-Setup-1.0.11.exe)**
+**[⬇️ Download the Windows installer](https://github.com/jongfat/desktop-file-organizer/raw/refs/heads/main/bin/DesktopOrganizer-Setup-1.0.12.exe)**
 
 1. Double-click the EXE and follow the Traditional Chinese installation wizard.
 2. Choose whether to create a desktop shortcut and start automatically at sign-in.
