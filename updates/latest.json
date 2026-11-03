@@ -1,8 +1,8 @@
 {
-  "version": "1.0.8",
-  "publishedAt": "2026-10-05",
-  "notes": "1.0.8｜修正桌面整理資料夾名稱\n• 桌面固定使用「桌面檔案整理」，其他來源維持來源名稱＋檔案整理資料夾。\n• 自動遷移 1.0.7 的桌面結果及更舊名稱，保留檔案、分類及連續升級的歷史關聯，檔案回復仍可追溯原位置。",
-  "downloadUrl": "https://raw.githubusercontent.com/jongfat/desktop-file-organizer/main/bin/DesktopOrganizer-Setup-1.0.8.exe",
-  "sha256": "95aaa49771daf3d7d015818402d7bc959b28233d23df4ef593033b962bbae29e",
-  "size": 2081960
+  "version": "1.0.10",
+  "publishedAt": "2026-11-03",
+  "notes": "1.0.10｜重複檔名檢查與預覽\n• 右鍵新增「重複檔名檢查」，選擇資料夾並將 aa.txt、aa(1).txt 等編號副本分組。\n• 文字與常見圖片可直接預覽；PDF、Office 文件可用預設程式開啟比較。\n• 勾選要保留的檔案，確認後將其餘檔案送至資源回收筒；至少保留一份，內容變更或回收失敗時停止並提示。\n• 檢查期間暫停自動整理，關閉後恢復原狀；包含 1.0.9 自訂巡查時間功能。",
+  "downloadUrl": "https://raw.githubusercontent.com/jongfat/desktop-file-organizer/main/bin/DesktopOrganizer-Setup-1.0.10.exe",
+  "sha256": "26bf05d000f8746d1c5f96c9cf5136b74b6138462a72417fc34c308688cf81cc",
+  "size": 2091987
 }
