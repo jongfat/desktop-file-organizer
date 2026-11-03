@@ -2,6 +2,22 @@
 
 [繁體中文](../README.md) · [简体中文](README.zh-CN.md) · [English](README.en.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Italiano](README.it.md)
 
+## 1.0.10 · 2026-10-30
+
+The tray menu now includes **「重複檔名檢查」 (Review duplicate names)**. Choose a folder, optionally including subfolders. Names such as `aa.txt`, `aa(1).txt` and `aa (2).txt` are grouped. Matching names in different subfolders are candidates too; **contents may differ**, so check full paths.
+
+Select a file to preview text or common images, with size and modification time. Text supports UTF-8, UTF-16 BOM and Big5. Open PDF and Office documents explicitly with their default app. Programs and scripts are not launched by this window.
+
+All files are checked to keep by default. Uncheck unwanted files, then select **「保留勾選，回收其餘」 (Keep checked, recycle others)** and confirm. At least one copy must remain. Only the current group is processed; retained files are not renamed. Uses Windows Recycle Bin, reporting failures without permanent-delete fallback. Network and removable-drive files require manual handling.
+
+Automatic organization pauses while the window is open and resumes with the existing interval and pause state. Changed or missing files require a rescan. Scans can be cancelled and are limited to 100,000 files. Text previews show up to 65,536 characters. Images over 25 MB, 40 megapixels or unsupported by the decoder require an external viewer.
+
+## 1.0.9 · 2026-10-30
+
+Tray menu → **「巡查時間」 (Scan interval)** → enter a number, choose seconds/minutes/hours, then save. The range is **30 seconds–24 hours**, with a new default of **5 minutes**, shared by the desktop and all watched folders. Settings persist across restarts, upgrades and uninstall in `%LOCALAPPDATA%\DesktopOrganizer\scan-settings.json`.
+
+Startup waits a full interval before the first automatic scan. Timing restarts after a scan, manual immediate organization, saving the interval or resuming automatic organization. Manual commands remain available. Changing the interval does not clear pauses or resume restored sources.
+
 ## 1.0.8 · 2026-10-05
 
 The desktop now always uses **「桌面檔案整理」**, rather than Desktop檔案整理資料夾. Other sources keep their source-based names, such as Download檔案整理資料夾. The next scan migrates desktop results from 1.0.7 and older versions, retaining contents, categories and chained history relationships for restoration. If old and new outputs coexist, both are preserved and sorting stops; use Restore files first.
@@ -66,11 +82,11 @@ All sources inherit shared rules by default. Select the desktop or a monitored f
 
 Saving lists affected sources for confirmation, then immediately reclassifies files previously moved by the tool and still present in archived categories. Original folders under “資料夾” stay intact; unrecorded files are untouched. Today's files remain in Today and use the latest rules after midnight. Collisions never overwrite files; locked or offline requests persist for retry. Only emptied former category folders are removed. Deleting rules sends unassociated formats to “其他類別” by uppercase extension, without deleting files. Today and shortcut/temporary exclusions remain fixed. Settings in `%LOCALAPPDATA%\DesktopOrganizer\sorting-rules.json` survive restarts, upgrades and uninstall. Invalid settings stop file moves until repaired. [Version history](../CHANGELOG.md)
 
-Right-click the Windows tray icon → “資料夾監視” (Folder monitoring) to view the fixed desktop entry and add, edit or remove additional folders. The list survives restarts. All sources are scanned every 30 seconds, with results in each source's own “XXX檔案整理資料夾” folder. Removing an entry stops monitoring and preserves data. Offline or failing locations do not block the others; scanning resumes when they return. Watched folders and their ancestors stay in place. Additional roots cannot duplicate or contain each other.
+Right-click the Windows tray icon → “資料夾監視” (Folder monitoring) to view the fixed desktop entry and add, edit or remove additional folders. The list survives restarts. All sources are scanned at the configured interval, with results in each source's own “XXX檔案整理資料夾” folder. Removing an entry stops monitoring and preserves data. Offline or failing locations do not block the others; scanning resumes when they return. Watched folders and their ancestors stay in place. Additional roots cannot duplicate or contain each other.
 
 Files awaiting sorting whose local last-modified date is today go into “當日檔案(Today)” together, regardless of format. The first scan after the date changes archives older files into the usual categories. Files edited again on the current day remain in Today. Shortcuts stay in place and original subfolders move intact into “資料夾”. Previously archived categories and the contents of original subfolders are not pulled back into Today.
 
-Pause applies to all sources; Organize now scans them all. The single-folder selection/confirmation command uses the same Today rule: run it again after midnight or add the folder to monitoring for automatic archiving. **1.0.1–1.0.7 can upgrade via OTA; 1.0.0 users must manually install 1.0.8.** [Version history](../CHANGELOG.md)
+Pause applies to all sources; Organize now scans them all. The single-folder selection/confirmation command uses the same Today rule: run it again after midnight or add the folder to monitoring for automatic archiving. **1.0.1–1.0.9 can upgrade via OTA; 1.0.0 users must manually install 1.0.10.** [Version history](../CHANGELOG.md)
 
 > **Make room for ideas. Give clutter a place to go.**
 
@@ -78,13 +94,13 @@ Reports, screenshots, installers, archives. Your desktop deserves better than be
 
 Desktop Organizer waits in the Windows system tray, sorts loose files into their categories, and moves existing folders as complete units. Your shortcuts stay where you expect them, so you can keep working.
 
-**Start at sign-in · Organize every 30 seconds · Keep shortcuts · Preserve name collisions · One installer**
+**Start at sign-in · Organize at the configured interval · Keep shortcuts · Preserve name collisions · One installer**
 
 ## 🚀 One file. A fresh start.
 
-Installer location, relative to the project root: `bin/DesktopOrganizer-Setup-1.0.8.exe`.
+Installer location, relative to the project root: `bin/DesktopOrganizer-Setup-1.0.10.exe`.
 
-**[⬇️ Download the Windows installer](https://github.com/jongfat/desktop-file-organizer/raw/refs/heads/main/bin/DesktopOrganizer-Setup-1.0.8.exe)**
+**[⬇️ Download the Windows installer](https://github.com/jongfat/desktop-file-organizer/raw/refs/heads/main/bin/DesktopOrganizer-Setup-1.0.10.exe)**
 
 1. Double-click the EXE and follow the Traditional Chinese installation wizard.
 2. Choose whether to create a desktop shortcut and start automatically at sign-in.

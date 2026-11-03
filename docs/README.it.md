@@ -2,6 +2,22 @@
 
 [繁體中文](../README.md) · [简体中文](README.zh-CN.md) · [English](README.en.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Italiano](README.it.md)
 
+## 1.0.10 · 2026-10-30
+
+Il menu del vassoio aggiunge **「重複檔名檢查」 (Controlla nomi duplicati)**. Scegli una cartella e se includere le sottocartelle. `aa.txt`, `aa(1).txt` e `aa (2).txt` vengono raggruppati. Anche nomi uguali in sottocartelle diverse sono candidati: **i contenuti possono differire**, quindi controlla i percorsi completi.
+
+Seleziona un file per vedere testo o immagini comuni, dimensioni e data di modifica. Il testo supporta UTF-8, UTF-16 BOM e Big5. PDF e documenti Office si confrontano aprendoli esplicitamente con l’app predefinita. Programmi e script non vengono avviati dalla finestra.
+
+Tutti i file sono inizialmente selezionati per conservarli. Deseleziona quelli non necessari e premi **「保留勾選，回收其餘」 (Conserva selezionati, cestina gli altri)**, poi conferma. Deve rimanere almeno una copia. Si modifica solo il gruppo corrente, senza rinominare. Si usa il Cestino di Windows; gli errori vengono segnalati senza passare all’eliminazione definitiva. Origini di rete e rimovibili richiedono intervento manuale.
+
+Il riordino automatico si sospende durante la revisione e riprende con intervallo e stato di pausa precedenti. File cambiati o mancanti richiedono una nuova scansione. La scansione è annullabile e limitata a 100.000 file. Anteprima testo: 65.536 caratteri; immagini: 25 MB／40 megapixel. Formati immagine non supportati richiedono un visualizzatore esterno.
+
+## 1.0.9 · 2026-10-30
+
+Menu del vassoio → **「巡查時間」 (Intervallo)** → inserisci un numero, scegli secondi/minuti/ore e salva. Intervallo **30 secondi–24 ore**, nuovo valore predefinito **5 minuti**, comune a tutte le origini. La configurazione in `%LOCALAPPDATA%\DesktopOrganizer\scan-settings.json` rimane dopo riavvio, aggiornamento e disinstallazione.
+
+All’avvio attende un intervallo completo prima di riordinare. Il conteggio riparte dopo il riordino, il salvataggio o la ripresa automatica. I comandi manuali restano disponibili. Cambiare intervallo non annulla le pause né riattiva le origini ripristinate.
+
 ## 1.0.8 · 2026-10-05
 
 Il desktop usa sempre **「桌面檔案整理」**, invece di Desktop檔案整理資料夾. Le altre origini mantengono nomi come Download檔案整理資料夾. Il prossimo riordino migra i risultati del desktop dalla versione 1.0.7 e dalle versioni precedenti, conservando contenuti, categorie e relazioni concatenate del registro. Se coesistono risultati vecchi e nuovi, entrambi vengono preservati e il riordino si arresta; usa prima 「檔案回復」.
@@ -66,11 +82,11 @@ Tutte le origini ereditano le regole condivise. Seleziona il desktop o una carte
 
 Il salvataggio chiede conferma delle origini coinvolte, poi riclassifica subito i file già spostati dallo strumento e ancora presenti nelle categorie archiviate. Le cartelle originali in “資料夾” e i file non registrati restano intatti. I file odierni rimangono in Today e usano le nuove regole dopo il cambio di data. Nessuna sovrascrittura; file bloccati e origini offline vengono ritentati. Si rimuovono soltanto le vecchie categorie svuotate. Eliminare una regola non elimina file: i formati senza associazione tornano in “其他類別” per estensione maiuscola. Today e le esclusioni di collegamenti e file temporanei restano fissi. Le impostazioni in `%LOCALAPPDATA%\DesktopOrganizer\sorting-rules.json` sopravvivono a riavvii, aggiornamenti e disinstallazione. Se il file è danneggiato, gli spostamenti si fermano fino alla correzione. [Cronologia](../CHANGELOG.md)
 
-Clic destro sull'icona nel vassoio di Windows → «資料夾監視» (Monitoraggio cartelle) per visualizzare il desktop fisso e aggiungere, modificare o rimuovere altre cartelle. La lista viene conservata dopo il riavvio. Tutte le origini vengono controllate ogni 30 secondi e i risultati rimangono nella rispettiva «XXX檔案整理資料夾». Rimuovere una voce interrompe il monitoraggio senza eliminare dati. Origini offline o in errore non bloccano le altre e vengono riprovate al ritorno. Le cartelle monitorate e i loro antenati restano al loro posto. Le origini aggiuntive non possono duplicarsi o contenersi.
+Clic destro sull'icona nel vassoio di Windows → «資料夾監視» (Monitoraggio cartelle) per visualizzare il desktop fisso e aggiungere, modificare o rimuovere altre cartelle. La lista viene conservata dopo il riavvio. Tutte le origini vengono controllate all’intervallo impostato e i risultati rimangono nella rispettiva «XXX檔案整理資料夾». Rimuovere una voce interrompe il monitoraggio senza eliminare dati. Origini offline o in errore non bloccano le altre e vengono riprovate al ritorno. Le cartelle monitorate e i loro antenati restano al loro posto. Le origini aggiuntive non possono duplicarsi o contenersi.
 
 I file in attesa di organizzazione con data locale di ultima modifica odierna vengono raccolti in «當日檔案(Today)», senza distinguere il formato. Al primo controllo dopo il cambio di data, quelli più vecchi passano alle categorie abituali. I file modificati nuovamente oggi restano in Today. Collegamenti e struttura delle sottocartelle originali vengono conservati; i file già archiviati nelle categorie e quelli dentro le sottocartelle originali non vengono riportati in Today.
 
-Pausa e organizzazione immediata si applicano a tutte le origini. Il comando per una singola cartella usa la stessa regola Today: eseguilo di nuovo il giorno successivo oppure aggiungi la cartella al monitoraggio. **1.0.1–1.0.7 possono aggiornarsi via OTA; gli utenti della 1.0.0 devono installare manualmente la 1.0.7.** [Cronologia versioni](../CHANGELOG.md)
+Pausa e organizzazione immediata si applicano a tutte le origini. Il comando per una singola cartella usa la stessa regola Today: eseguilo di nuovo il giorno successivo oppure aggiungi la cartella al monitoraggio. **1.0.1–1.0.9 possono aggiornarsi via OTA; gli utenti della 1.0.0 devono installare manualmente la 1.0.7.** [Cronologia versioni](../CHANGELOG.md)
 
 > **Spazio alle idee. Un posto per ogni file.**
 
@@ -78,13 +94,13 @@ Report, screenshot, programmi di installazione, archivi. Il desktop merita di es
 
 Desktop Organizer resta nell'area di notifica di Windows, ordina i file singoli per categoria e sposta le cartelle esistenti insieme al loro contenuto. I collegamenti rimangono al loro posto, così puoi continuare a lavorare.
 
-**Avvio all'accesso · Riordino ogni 30 secondi · Collegamenti conservati · Nessuna sovrascrittura · Un solo installer**
+**Avvio all'accesso · Riordino all’intervallo impostato · Collegamenti conservati · Nessuna sovrascrittura · Un solo installer**
 
 ## 🚀 Un file. Un nuovo inizio.
 
-Percorso dell'installer, dalla cartella principale del progetto: `bin/DesktopOrganizer-Setup-1.0.8.exe`.
+Percorso dell'installer, dalla cartella principale del progetto: `bin/DesktopOrganizer-Setup-1.0.10.exe`.
 
-**[⬇️ Scarica l'installer per Windows](https://github.com/jongfat/desktop-file-organizer/raw/refs/heads/main/bin/DesktopOrganizer-Setup-1.0.8.exe)**
+**[⬇️ Scarica l'installer per Windows](https://github.com/jongfat/desktop-file-organizer/raw/refs/heads/main/bin/DesktopOrganizer-Setup-1.0.10.exe)**
 
 1. Fai doppio clic sull'EXE e segui la procedura guidata in cinese tradizionale.
 2. Scegli se creare un collegamento sul desktop e avviare il programma all'accesso.
