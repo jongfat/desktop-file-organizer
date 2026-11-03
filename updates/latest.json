@@ -1,8 +1,8 @@
 {
-  "version": "1.0.11",
+  "version": "1.0.12",
   "publishedAt": "2026-11-03",
-  "notes": "1.0.11｜Today 資料夾與使用中延後處理\n• 當天修改的檔案、資料夾與壓縮檔先進入「當日檔案(Today)」；跨日後原資料夾整包歸檔。\n• 首次升級巡查修正有成功紀錄、被舊版誤歸檔的當日資料夾，保留內容與回復關聯。\n• 搬移前檢查項目及資料夾內的檔案；使用中、仍在更新或無法確認安全的項目保留原處，下一輪重試。\n• 巡查與監視清單顯示延後數量，紀錄以 DEFER 標示；手動整理同樣保護。部分讀取後即關閉控制代碼的編輯器可能無法偵測。",
-  "downloadUrl": "https://raw.githubusercontent.com/jongfat/desktop-file-organizer/main/bin/DesktopOrganizer-Setup-1.0.11.exe",
-  "sha256": "9c88ed06ad908cefecccd95ea8c78fbdd45ca09bb93fadfe8b25be04e861a620",
-  "size": 2094159
+  "notes": "1.0.12｜離線圖文使用說明\n• 系統匣右鍵在「結束」上方新增「使用說明」。\n• 13 項功能導覽，每項以三個步驟與提醒說明操作。\n• 內附 11 張示範圖與實際介面縮圖，點擊可放大；不需網路。\n• 開始功能表的使用說明同步開啟圖文視窗。",
+  "downloadUrl": "https://raw.githubusercontent.com/jongfat/desktop-file-organizer/main/bin/DesktopOrganizer-Setup-1.0.12.exe",
+  "sha256": "4fbda635329eacb6b29a47472ca3841e3352cc3f63f9cf2ed7176ffd2f8243f4",
+  "size": 2241557
 }
