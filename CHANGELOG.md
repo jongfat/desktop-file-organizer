@@ -1,4 +1,13 @@
-﻿# 版本與更新內容 / Version history
+# 版本與更新內容 / Version history
+
+## 1.0.12 — 2026-11-03
+
+- 系統匣選單在「結束」正上方加入「使用說明」，可重複開啟並聚焦既有視窗。
+- 13 項功能以三步驟與提醒說明；內附 11 張示範圖及實際介面縮圖，可點擊放大、按 Esc 關閉。
+- 圖文離線可用，僅使用示範資料；缺少圖片時仍保留文字說明。
+- 開始功能表的使用說明改為開啟圖文視窗，安裝包包含所有圖片。
+
+Adds an offline illustrated Help window immediately above Exit. Covers 13 topics with concise steps, tips and 11 enlargable sample images. The Start menu Help shortcut opens the same guide; missing images do not prevent reading the text.
 
 ## 1.0.11 — 2026-11-03
 

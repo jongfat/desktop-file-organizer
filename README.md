@@ -1,6 +1,10 @@
-﻿# ⚡ Desktop Organizer｜桌面整理工具
+# ⚡ Desktop Organizer｜桌面整理工具
 
 [繁體中文](README.md) · [简体中文](docs/README.zh-CN.md) · [English](docs/README.en.md) · [日本語](docs/README.ja.md) · [한국어](docs/README.ko.md) · [Italiano](docs/README.it.md)
+
+## 1.0.12 · 2026-11-03
+
+系統匣右鍵選單在 **「結束」上方新增「使用說明」**。左側切換 13 項功能，每項只有三個操作步驟與提醒；內附 **11 張示範圖及軟體介面縮圖，點圖即可放大**。所有圖文隨安裝包提供，不需網路，圖片使用示範資料。開始功能表的「使用說明」也會直接開啟此視窗。
 
 ## 1.0.11 · 2026-11-03
 
@@ -98,7 +102,7 @@
 
 「暫停自動整理」套用全部來源；「立即整理」巡查全部來源。原有「整理所選資料夾」仍可選擇、確認後整理一次，同樣套用 Today 規則，跨日後需再次整理或加入監視。
 
-系統匣「版本 · 檢查更新」顯示版本、日期及更新內容。**1.0.1～1.0.10 可透過 OTA 升級；1.0.0 請手動安裝 1.0.11。** [後續版本發布流程](updates/README.md)
+系統匣「版本 · 檢查更新」顯示版本、日期及更新內容。**1.0.1～1.0.11 可透過 OTA 升級；1.0.0 請手動安裝 1.0.12。** [後續版本發布流程](updates/README.md)
 
 > **桌面留給靈感，雜亂交給我。**
 
@@ -110,9 +114,9 @@ Desktop Organizer 在 Windows 系統匣待命，把散落的檔案送進對應�
 
 ## 🚀 一個安裝檔，重新開場
 
-成品位置：`bin/DesktopOrganizer-Setup-1.0.11.exe`。
+成品位置：`bin/DesktopOrganizer-Setup-1.0.12.exe`。
 
-**[⬇️ 下載 Windows 安裝程式](https://github.com/jongfat/desktop-file-organizer/raw/refs/heads/main/bin/DesktopOrganizer-Setup-1.0.11.exe)**
+**[⬇️ 下載 Windows 安裝程式](https://github.com/jongfat/desktop-file-organizer/raw/refs/heads/main/bin/DesktopOrganizer-Setup-1.0.12.exe)**
 
 1. 雙擊 EXE，跟著繁體中文安裝精靈操作。
 2. 選擇桌面捷徑與登入自動啟動。
