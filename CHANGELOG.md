@@ -1,5 +1,25 @@
 ﻿# 版本與更新內容 / Version history
 
+## 1.0.10 — 2026-10-30
+
+- 系統匣新增「重複檔名檢查」視窗。選擇範圍並可包含子資料夾；同基本名稱與編號副本分組，顯示完整路徑、大小、修改時間，候選不表示內容相同。
+- 文字（UTF-8／UTF-16 BOM／Big5）與常見圖片內嵌預覽；PDF、Office 文件可明確使用預設程式開啟，程式及腳本不啟動。
+- 預設全選保留，至少保留一份；確認後僅將目前組未勾選的檔案送至 Windows 資源回收筒，不改名，不自動改用永久刪除。本機固定磁碟以外需手動處理。
+- 檔案或保留副本變更／消失則停止，回收失敗提示；捷徑、暫存、隱藏、系統和連結項目排除。
+- 視窗開啟期間暫停自動整理，關閉後恢復原間隔及暫停狀態。掃描可取消，上限 100,000 檔；文字預覽限 65,536 字元，圖片限 25 MB／4,000 萬畫素。
+- 包含尚未公開發布的 1.0.9 自訂巡查時間功能。
+
+Adds a duplicate-name review window with candidate grouping, text/image previews, explicit document opening and confirmed recycling of unchecked files while retaining at least one copy. Automatic organization pauses during review. Changed or unavailable files stop processing; no permanent-deletion fallback is used.
+
+## 1.0.9 — 2026-10-30
+
+- 右鍵新增「巡查時間」，可設定 30 秒至 24 小時，預設 5 分鐘，所有監視來源共用。
+- 設定立即套用並保留至重啟、升級與解除安裝後；無效設定暫用 5 分鐘並保留原檔，供使用者重新儲存修復。
+- 啟動後先等待完整間隔再整理，巡查完成、立即整理、儲存或恢復後重新計時；手動整理不受等待限制。
+- 修改時間不解除全域暫停或檔案回復後的來源暫停。
+
+Configurable scan interval (30 seconds to 24 hours), defaulting to five minutes. Startup waits before sorting, settings persist, and manual sorting remains available. Existing pause and restored-source protections remain effective.
+
 ## 1.0.8 — 2026-10-05
 
 - 桌面結果固定使用「桌面檔案整理」；其他來源維持來源名稱＋檔案整理資料夾。
