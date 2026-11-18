@@ -1,5 +1,29 @@
 # 版本與更新內容 / Version history
 
+## 1.0.14 — 2026-11-18
+
+- 系統匣新增「重新整理時立即整理」開關，預設關閉，使用獨立設定檔保存。
+- 支援 Explorer 的 F5、工具列重新整理，以及傳統背景選單的滑鼠重新整理。原本的重新整理照常執行。
+- 只接受桌面或監視來源根目錄；以作用中分頁辨識，切換分頁／視窗或事件過期時略過，5 秒內重複事件合併。
+- 全域暫停、整理中、回復／單次整理對話及重複檔名檢查期間忽略觸發；不恢復因回復而停用的來源。
+- 立即執行既有巡查，保留 Today、自訂規則及使用中檔案延後處理，不依檔案變更事件觸發。
+- 無障礙提供者不支援或無法辨識來源時略過，不注入 Explorer。滑鼠相容性依 Windows 版本與提供者而定。
+- 包含尚未單獨線上發布的 1.0.13 文件與 DAT 預覽更新。
+
+Adds an opt-in persistent Organize on Explorer refresh switch. Supports F5, the toolbar and mouse selection of classic background-menu Refresh, with active-tab source validation, debounce and pause/restore protections. Uncertain or unsupported views are skipped. Includes the 1.0.13 content-preview enhancements.
+
+## 1.0.13 — 2026-11-03
+
+- 重複檔名檢查加入 PDF、DOCX／DOCM、PPTX／PPTM、XLSX／XLSM、RTF、ODT／ODS／ODP 的文字與儲存格預覽。
+- 舊 DOC／PPT／XLS 使用 Windows IFilter，不啟動 Office；缺少相符位元篩選器時提示轉換格式。
+- DAT 支援 UTF-8、UTF-16 BOM、Big5 文字與前 4,096 位元組二進位摘要。
+- 獨立程序執行文件解析；切換檔案取消舊請求，不顯示過期結果。20 秒逾時、50 MB 文件、384 MB 程序私有記憶體上限；暫存內容完成後清除。
+- 顯示文字截斷與頁數／表格上限；禁止 XML 外部實體及套件外部連結，不執行巨集或重算公式。
+- 內容提取不含版面、圖片、動畫與圖表；PDF 不執行 OCR，Excel 顯示原始儲存值。
+- PDF 使用 Apache-2.0 PdfPig，安裝包包含依賴與第三方授權聲明。
+
+Adds offline PDF/Office/OpenDocument/RTF content extraction and DAT text/hex previews. Modern Office formats work without Office; legacy formats use installed Windows filters. Isolated cancellable readers enforce resource limits and preserve original files. Content extraction does not render layouts or perform OCR.
+
 ## 1.0.12 — 2026-11-03
 
 - 系統匣選單在「結束」正上方加入「使用說明」，可重複開啟並聚焦既有視窗。

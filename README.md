@@ -2,6 +2,22 @@
 
 [繁體中文](README.md) · [简体中文](docs/README.zh-CN.md) · [English](docs/README.en.md) · [日本語](docs/README.ja.md) · [한국어](docs/README.ko.md) · [Italiano](docs/README.it.md)
 
+## 1.0.14 · 2026-11-18
+
+系統匣右鍵新增 **「重新整理時立即整理」**，預設關閉，勾選後重啟仍保留。當桌面或監視來源正顯示於檔案總管時，按 **F5**、滑鼠點工具列重新整理按鈕或背景右鍵選單的「重新整理」，會立即巡查桌面與全部監視來源。
+
+5 秒內的重複操作合併；暫停、整理中、回復對話與重複檔名檢查期間忽略事件。回復後停用的來源不會因此恢復，使用中的檔案仍延後。未監視的資料夾、分類結果的子資料夾、虛擬位置及一般檔案變動不觸發。多分頁依作用中的分頁辨識；無法確認來源時略過。滑鼠偵測依 Windows 無障礙事件，這台 Windows 已實測 F5、工具列與傳統背景選單；自訂檔案管理器不在支援範圍。
+
+開關儲存於 `%LOCALAPPDATA%\DesktopOrganizer\explorer-refresh.json`。本版也包含 1.0.13 的 PDF、Office、OpenDocument 與 DAT 內容預覽。
+
+## 1.0.13 · 2026-11-03
+
+「重複檔名檢查」擴充內嵌預覽：**PDF 按頁讀取文字、Word 讀取段落與表格文字、PowerPoint 按投影片順序顯示文字、Excel 按工作表列出儲存格與公式快取**。DOCX／PPTX／XLSX 不需安裝 Office；DOC／PPT／XLS 需要電腦已安裝相符位元的 Windows 文件篩選器，缺少時會提示另存為新版格式。另支援 RTF、ODT、ODS、ODP。
+
+**DAT 會辨識 UTF-8、UTF-16 BOM、Big5 文字，二進位資料提供前 4,096 位元組十六進位摘要**。文件以獨立程序讀取，切換或關閉時取消；最多等待 20 秒，文件上限 50 MB、文字 65,536 字元、PDF／簡報前 80 頁／張、Excel 前 20 表且每表 200 列、每列 40 格。達上限會提示。
+
+此為內容預覽，不還原版面、圖片、圖表或動畫；掃描 PDF 不執行 OCR，Excel 顯示原始儲存值且不重算公式，DAT 專用格式需由原程式解讀。讀取不啟動 Office、不執行巨集或外部連結，完整文件仍可用預設程式查看。
+
 ## 1.0.12 · 2026-11-03
 
 系統匣右鍵選單在 **「結束」上方新增「使用說明」**。左側切換 13 項功能，每項只有三個操作步驟與提醒；內附 **11 張示範圖及軟體介面縮圖，點圖即可放大**。所有圖文隨安裝包提供，不需網路，圖片使用示範資料。開始功能表的「使用說明」也會直接開啟此視窗。
@@ -102,7 +118,7 @@
 
 「暫停自動整理」套用全部來源；「立即整理」巡查全部來源。原有「整理所選資料夾」仍可選擇、確認後整理一次，同樣套用 Today 規則，跨日後需再次整理或加入監視。
 
-系統匣「版本 · 檢查更新」顯示版本、日期及更新內容。**1.0.1～1.0.11 可透過 OTA 升級；1.0.0 請手動安裝 1.0.12。** [後續版本發布流程](updates/README.md)
+系統匣「版本 · 檢查更新」顯示版本、日期及更新內容。**1.0.1～1.0.13 可透過 OTA 升級；1.0.0 請手動安裝 1.0.14。** [後續版本發布流程](updates/README.md)
 
 > **桌面留給靈感，雜亂交給我。**
 
@@ -114,9 +130,9 @@ Desktop Organizer 在 Windows 系統匣待命，把散落的檔案送進對應�
 
 ## 🚀 一個安裝檔，重新開場
 
-成品位置：`bin/DesktopOrganizer-Setup-1.0.12.exe`。
+成品位置：`bin/DesktopOrganizer-Setup-1.0.14.exe`。
 
-**[⬇️ 下載 Windows 安裝程式](https://github.com/jongfat/desktop-file-organizer/raw/refs/heads/main/bin/DesktopOrganizer-Setup-1.0.12.exe)**
+**[⬇️ 下載 Windows 安裝程式](https://github.com/jongfat/desktop-file-organizer/raw/refs/heads/main/bin/DesktopOrganizer-Setup-1.0.14.exe)**
 
 1. 雙擊 EXE，跟著繁體中文安裝精靈操作。
 2. 選擇桌面捷徑與登入自動啟動。
