@@ -2,6 +2,18 @@
 
 [繁體中文](../README.md) · [简体中文](README.zh-CN.md) · [English](README.en.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Italiano](README.it.md)
 
+## 1.0.14 · 2026-11-18
+
+Il menu aggiunge **「重新整理時立即整理」 (Organizza al refresh di Esplora file)**, disattivato inizialmente e memorizzato dopo il riavvio. Nel desktop o in una cartella sorvegliata, **F5** oppure Aggiorna nella barra strumenti o nel menu di sfondo avvia subito la scansione di tutte le origini.
+
+Le ripetizioni entro 5 secondi vengono unite. Pausa, organizzazione in corso, ripristino e revisione dei duplicati impediscono l’avvio; le origini fermate dopo il ripristino restano disattivate. Riconosce la scheda attiva e ignora percorsi non sorvegliati, virtuali o incerti e le normali modifiche dei file. Il rilevamento del mouse dipende dagli eventi di accessibilità di Windows. Include anche le anteprime documenti e DAT della 1.0.13.
+
+## 1.0.13 · 2026-11-03
+
+La revisione dei nomi duplicati ora mostra il contenuto di **PDF, DOCX, PPTX, XLSX, RTF, ODT, ODS e ODP**: pagine PDF, diapositive in ordine e fogli/celle Excel. I formati Office moderni non richiedono Office; DOC/PPT/XLS richiedono un filtro documenti Windows della stessa architettura. Se assente, viene suggerita la conversione.
+
+Per DAT rileva testo UTF-8, UTF-16 con BOM o Big5; i file binari mostrano i primi 4.096 byte in esadecimale. Lettura in un processo separato, annullabile, con timeout di 20 secondi. Limiti: 50 MB, 65.536 caratteri, 80 pagine/diapositive, 20 fogli con 200 righe e 40 celle per riga. Le omissioni sono indicate. Non riproduce impaginazione o grafici, non esegue OCR, ricalcoli o macro. I DAT proprietari richiedono il programma originale.
+
 ## 1.0.12 · 2026-11-03
 
 Il menu dell’icona nell’area di notifica include **「使用說明」 (Guida), subito sopra 「結束」 (Esci)**. Sono disponibili 13 argomenti, ciascuno con tre brevi passaggi e un suggerimento. **11 diagrammi e miniature dell’interfaccia si ingrandiscono con un clic.** Tutto funziona offline con dati di esempio. Anche il collegamento Guida nel menu Start apre questa finestra.
@@ -96,7 +108,7 @@ Clic destro sull'icona nel vassoio di Windows → «資料夾監視» (Monitorag
 
 I file in attesa di organizzazione con data locale di ultima modifica odierna vengono raccolti in «當日檔案(Today)», senza distinguere il formato. Al primo controllo dopo il cambio di data, quelli più vecchi passano alle categorie abituali. I file modificati nuovamente oggi restano in Today. Collegamenti e struttura delle sottocartelle originali vengono conservati; i file già archiviati nelle categorie e quelli dentro le sottocartelle originali non vengono riportati in Today.
 
-Pausa e organizzazione immediata si applicano a tutte le origini. Il comando per una singola cartella usa la stessa regola Today: eseguilo di nuovo il giorno successivo oppure aggiungi la cartella al monitoraggio. **1.0.1–1.0.11 possono aggiornarsi via OTA; gli utenti della 1.0.0 devono installare manualmente la 1.0.12.** [Cronologia versioni](../CHANGELOG.md)
+Pausa e organizzazione immediata si applicano a tutte le origini. Il comando per una singola cartella usa la stessa regola Today: eseguilo di nuovo il giorno successivo oppure aggiungi la cartella al monitoraggio. **1.0.1–1.0.13 possono aggiornarsi via OTA; gli utenti della 1.0.0 devono installare manualmente la 1.0.14.** [Cronologia versioni](../CHANGELOG.md)
 
 > **Spazio alle idee. Un posto per ogni file.**
 
@@ -108,9 +120,9 @@ Desktop Organizer resta nell'area di notifica di Windows, ordina i file singoli 
 
 ## 🚀 Un file. Un nuovo inizio.
 
-Percorso dell'installer, dalla cartella principale del progetto: `bin/DesktopOrganizer-Setup-1.0.12.exe`.
+Percorso dell'installer, dalla cartella principale del progetto: `bin/DesktopOrganizer-Setup-1.0.14.exe`.
 
-**[⬇️ Scarica l'installer per Windows](https://github.com/jongfat/desktop-file-organizer/raw/refs/heads/main/bin/DesktopOrganizer-Setup-1.0.12.exe)**
+**[⬇️ Scarica l'installer per Windows](https://github.com/jongfat/desktop-file-organizer/raw/refs/heads/main/bin/DesktopOrganizer-Setup-1.0.14.exe)**
 
 1. Fai doppio clic sull'EXE e segui la procedura guidata in cinese tradizionale.
 2. Scegli se creare un collegamento sul desktop e avviare il programma all'accesso.

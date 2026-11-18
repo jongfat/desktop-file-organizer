@@ -2,6 +2,18 @@
 
 [繁體中文](../README.md) · [简体中文](README.zh-CN.md) · [English](README.en.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Italiano](README.it.md)
 
+## 1.0.14 · 2026-11-18
+
+The tray menu adds **「重新整理時立即整理」 (Organize on Explorer refresh)**, off by default and remembered across restarts. In the desktop or a watched source folder, press **F5** or click Refresh in Explorer’s toolbar/background menu to scan all watched sources immediately.
+
+Repeats within 5 seconds are merged. Pauses, active organization, restore dialogs and duplicate review suppress triggers; restored sources stay disabled. Uses the active Explorer tab, ignoring unmonitored/virtual locations and ordinary file changes. Uncertain locations are skipped. Mouse support depends on Windows accessibility events; F5, toolbar and classic background menu were tested on this Windows installation. Also includes the 1.0.13 document/DAT preview expansion.
+
+## 1.0.13 · 2026-11-03
+
+Duplicate-name review now extracts content from **PDF, DOCX, PPTX, XLSX, RTF, ODT, ODS and ODP**. Shows PDF pages, presentation slides and spreadsheet names/cells in order. Modern Office formats work without Office; legacy DOC/PPT/XLS require a matching-bitness Windows document filter and show a conversion hint if unavailable.
+
+DAT detects UTF-8, UTF-16 BOM or Big5 text, otherwise showing the first 4,096 bytes as hex. Extraction runs in a cancellable process with a 20-second timeout. Limits: 50 MB input, 65,536 text characters, 80 PDF pages/slides, 20 sheets with 200 rows and 40 cells per row. Truncation is labelled. This is content extraction, not layout rendering or OCR; formulas are not recalculated, macros are not executed, and proprietary DAT formats need their original application.
+
 ## 1.0.12 · 2026-11-03
 
 The tray menu now includes **「使用說明」 (Help), immediately above 「結束」 (Exit)**. Browse 13 topics with three short steps and a tip each. **11 bundled diagrams and interface thumbnails can be clicked to enlarge.** All content works offline and uses sample data. The Start menu Help shortcut opens the same illustrated guide.
@@ -98,7 +110,7 @@ Right-click the Windows tray icon → “資料夾監視” (Folder monitoring) 
 
 Files awaiting sorting whose local last-modified date is today go into “當日檔案(Today)” together, regardless of format. The first scan after the date changes archives older files into the usual categories. Files edited again on the current day remain in Today. Shortcuts stay in place and original subfolders move intact into “資料夾”. Previously archived categories and the contents of original subfolders are not pulled back into Today.
 
-Pause applies to all sources; Organize now scans them all. The single-folder selection/confirmation command uses the same Today rule: run it again after midnight or add the folder to monitoring for automatic archiving. **1.0.1–1.0.11 can upgrade via OTA; 1.0.0 users must manually install 1.0.12.** [Version history](../CHANGELOG.md)
+Pause applies to all sources; Organize now scans them all. The single-folder selection/confirmation command uses the same Today rule: run it again after midnight or add the folder to monitoring for automatic archiving. **1.0.1–1.0.13 can upgrade via OTA; 1.0.0 users must manually install 1.0.14.** [Version history](../CHANGELOG.md)
 
 > **Make room for ideas. Give clutter a place to go.**
 
@@ -110,9 +122,9 @@ Desktop Organizer waits in the Windows system tray, sorts loose files into their
 
 ## 🚀 One file. A fresh start.
 
-Installer location, relative to the project root: `bin/DesktopOrganizer-Setup-1.0.12.exe`.
+Installer location, relative to the project root: `bin/DesktopOrganizer-Setup-1.0.14.exe`.
 
-**[⬇️ Download the Windows installer](https://github.com/jongfat/desktop-file-organizer/raw/refs/heads/main/bin/DesktopOrganizer-Setup-1.0.12.exe)**
+**[⬇️ Download the Windows installer](https://github.com/jongfat/desktop-file-organizer/raw/refs/heads/main/bin/DesktopOrganizer-Setup-1.0.14.exe)**
 
 1. Double-click the EXE and follow the Traditional Chinese installation wizard.
 2. Choose whether to create a desktop shortcut and start automatically at sign-in.
