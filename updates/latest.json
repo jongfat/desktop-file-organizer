@@ -1,8 +1,8 @@
 {
-  "version": "1.0.12",
-  "publishedAt": "2026-11-03",
-  "notes": "1.0.12｜離線圖文使用說明\n• 系統匣右鍵在「結束」上方新增「使用說明」。\n• 13 項功能導覽，每項以三個步驟與提醒說明操作。\n• 內附 11 張示範圖與實際介面縮圖，點擊可放大；不需網路。\n• 開始功能表的使用說明同步開啟圖文視窗。",
-  "downloadUrl": "https://raw.githubusercontent.com/jongfat/desktop-file-organizer/main/bin/DesktopOrganizer-Setup-1.0.12.exe",
-  "sha256": "4fbda635329eacb6b29a47472ca3841e3352cc3f63f9cf2ed7176ffd2f8243f4",
-  "size": 2241557
+  "version": "1.0.14",
+  "publishedAt": "2026-11-18",
+  "notes": "1.0.14｜重新整理時立即整理\n• 系統匣新增可勾選開關，預設關閉，設定重啟及升級後保留。\n• 在桌面或已監視資料夾按 F5、點工具列或右鍵選單「重新整理」，立即巡查全部來源。\n• 5 秒內重複觸發合併；暫停、整理中、回復及重複檔名檢查期間不觸發，回復後停用來源不自動恢復。\n• 依目前作用中的檔案總管分頁辨識來源，忽略未監視、虛擬位置及一般檔案變動。\n• 保留使用中檔案延後處理、Today 與自訂分類規則；包含 1.0.13 文件預覽擴充。",
+  "downloadUrl": "https://raw.githubusercontent.com/jongfat/desktop-file-organizer/main/bin/DesktopOrganizer-Setup-1.0.14.exe",
+  "sha256": "746e7728ac581d81502e13d432f8e4abe39ffdde1630cacd13e2c5df21d3018c",
+  "size": 3329054
 }
